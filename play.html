@@ -1,0 +1,1717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#0b0821">
+  <meta name="color-scheme" content="dark">
+  <title>Hue Pop</title>
+  <meta name="description" content="Tap matching colors, pop them, chain combos, beat your best. A free 60 second puzzle game.">
+  <link rel="icon" href="data:image/png;base64,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">
+  <style>
+:root {
+  --bg-1: #1b1246;
+  --bg-2: #0b0821;
+  --panel: rgba(255, 255, 255, 0.07);
+  --panel-strong: rgba(255, 255, 255, 0.12);
+  --text: #ffffff;
+  --muted: rgba(255, 255, 255, 0.62);
+  --accent-1: #ff7a59;
+  --accent-2: #ff4d6d;
+  --green: #3ddc84;
+  --yellow: #ffd23f;
+  --blue: #3b9dff;
+  --purple: #b85cff;
+  --red: #ff4d6d;
+  --radius: 22px;
+  --banner-h: 0px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body {
+  margin: 0; padding: 0; height: 100%;
+  background: var(--bg-2);
+  color: var(--text);
+  font-family: var(--font);
+  overflow: hidden;
+  -webkit-user-select: none; user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: manipulation;
+  overscroll-behavior: none;
+}
+body {
+  background: radial-gradient(120% 80% at 50% -10%, #3a2a8c 0%, var(--bg-1) 45%, var(--bg-2) 100%);
+}
+button { font-family: inherit; }
+
+#app {
+  position: fixed; inset: 0;
+  display: flex; flex-direction: column;
+  padding-top: var(--safe-top);
+  padding-bottom: calc(var(--safe-bottom) + var(--banner-h));
+}
+
+.screen {
+  position: absolute; inset: 0;
+  padding-top: var(--safe-top);
+  padding-bottom: calc(var(--safe-bottom) + var(--banner-h));
+  display: none; flex-direction: column; align-items: center;
+  padding-left: 16px; padding-right: 16px;
+}
+.screen.active { display: flex; }
+
+/* ---------- Home ---------- */
+#home { justify-content: space-between; }
+.home-top { width: 100%; max-width: 440px; display: flex; justify-content: flex-end; gap: 8px; padding-top: 10px; }
+.icon-btn {
+  width: 42px; height: 42px; border-radius: 14px; border: 0;
+  background: var(--panel); color: #fff; font-size: 20px; line-height: 42px; text-align: center;
+  cursor: pointer;
+}
+.icon-btn:active { transform: scale(0.94); }
+.icon-btn svg { vertical-align: middle; }
+.icon-btn .mute { display: none; }
+.icon-btn.muted .wave { display: none; }
+.icon-btn.muted .mute { display: block; }
+.logo { text-align: center; margin-top: 2vh; }
+.logo h1 {
+  margin: 0; font-size: clamp(38px, 11vw, 54px); font-weight: 900; letter-spacing: -0.02em; line-height: 1;
+  text-shadow: 0 6px 24px rgba(0,0,0,0.35);
+}
+.logo h1 span { display: inline-block; }
+.logo .dots { display: flex; justify-content: center; gap: 10px; margin-top: 14px; }
+.logo .dots i { width: 22px; height: 22px; border-radius: 50%; display: inline-block; box-shadow: inset -4px -5px 8px rgba(0,0,0,0.25), inset 4px 5px 8px rgba(255,255,255,0.45), 0 6px 12px rgba(0,0,0,0.3); }
+.logo .dots i:nth-child(1) { background: var(--red); }
+.logo .dots i:nth-child(2) { background: var(--yellow); }
+.logo .dots i:nth-child(3) { background: var(--green); }
+.logo .dots i:nth-child(4) { background: var(--blue); }
+.logo .dots i:nth-child(5) { background: var(--purple); }
+.logo .dots i { animation: bob 2.4s ease-in-out infinite; }
+.logo .dots i:nth-child(2) { animation-delay: .15s; }
+.logo .dots i:nth-child(3) { animation-delay: .3s; }
+.logo .dots i:nth-child(4) { animation-delay: .45s; }
+.logo .dots i:nth-child(5) { animation-delay: .6s; }
+@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+
+.best { text-align: center; margin-top: 3vh; }
+.best .label { font-size: 13px; font-weight: 800; letter-spacing: 0.18em; color: var(--muted); }
+.best .value { font-size: clamp(34px, 9vw, 46px); font-weight: 900; font-variant-numeric: tabular-nums; margin-top: 4px; }
+
+.btn-primary {
+  display: block; width: 100%; max-width: 360px; margin: 2vh auto 0;
+  padding: 18px 20px; border-radius: 999px; border: 0; cursor: pointer;
+  font-size: 24px; font-weight: 900; letter-spacing: 0.08em; color: #fff;
+  background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+  box-shadow: 0 10px 30px rgba(255, 77, 109, 0.45), inset 0 -3px 0 rgba(0,0,0,0.15);
+  transition: transform .08s ease;
+}
+.btn-primary:active { transform: scale(0.97); }
+.btn-primary.green { background: linear-gradient(135deg, #34d399, #10b981); box-shadow: 0 10px 30px rgba(16,185,129,0.4), inset 0 -3px 0 rgba(0,0,0,0.15); }
+
+.daily {
+  width: 100%; max-width: 360px; margin: 2vh auto 0;
+  background: var(--panel); border-radius: var(--radius); padding: 14px 16px;
+  display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 10px;
+}
+.daily .title { font-weight: 900; font-size: 15px; letter-spacing: 0.06em; }
+.daily .sub { color: var(--muted); font-size: 13px; margin-top: 3px; }
+.daily .streak { font-size: 13px; margin-top: 6px; font-weight: 800; }
+.daily button {
+  border: 0; border-radius: 999px; padding: 12px 18px; font-weight: 900; font-size: 15px; letter-spacing: 0.06em;
+  background: #fff; color: #2b1a6b; cursor: pointer;
+}
+.daily button:active { transform: scale(0.96); }
+.home-bottom { width: 100%; text-align: center; color: var(--muted); font-size: 12px; padding: 10px 0 8px; }
+
+/* ---------- Game ---------- */
+#game { justify-content: flex-start; }
+.hud { width: 100%; max-width: 440px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; padding-top: 8px; gap: 8px; }
+.pill {
+  background: var(--panel); border-radius: 999px; padding: 8px 14px; font-weight: 800; font-size: 14px; text-align: center;
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.pill .lbl { display: block; font-size: 10px; letter-spacing: 0.16em; color: var(--muted); font-weight: 800; }
+.pill .val { display: block; font-size: 18px; font-weight: 900; }
+.pill.combo { transition: background .2s, transform .2s; }
+.pill.combo.hot { background: linear-gradient(135deg, #ff7a59, #ff4d6d); box-shadow: 0 6px 20px rgba(255,77,109,0.45); }
+.pill.combo.hot .lbl { color: rgba(255,255,255,0.85); }
+.pill.combo.bump { animation: bump .28s ease; }
+@keyframes bump { 0% { transform: scale(1); } 40% { transform: scale(1.18); } 100% { transform: scale(1); } }
+.pill.combo.shake { animation: shake .3s ease; }
+@keyframes shake { 0%,100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+.score { text-align: center; }
+.score .lbl { font-size: 11px; letter-spacing: 0.2em; color: var(--muted); font-weight: 800; }
+.score .val { font-size: clamp(30px, 8vw, 40px); font-weight: 900; font-variant-numeric: tabular-nums; line-height: 1.05; }
+.score .val.pop { animation: scorepop .25s ease; }
+@keyframes scorepop { 0% { transform: scale(1); } 40% { transform: scale(1.12); } 100% { transform: scale(1); } }
+
+.board-wrap { width: 100%; max-width: 440px; flex: 1; display: flex; align-items: center; justify-content: center; position: relative; min-height: 0; }
+#board { display: block; touch-action: none; border-radius: 24px; }
+.board-msg {
+  position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%);
+  text-align: center; pointer-events: none; font-weight: 900; font-size: clamp(34px, 10vw, 52px);
+  letter-spacing: 0.04em; color: #fff; text-shadow: 0 8px 30px rgba(0,0,0,0.5), 0 0 24px rgba(255,210,63,0.6);
+  opacity: 0;
+}
+.board-msg.show { animation: msg 0.9s ease forwards; }
+@keyframes msg { 0% { opacity: 0; transform: translateY(-50%) scale(0.6); } 20% { opacity: 1; transform: translateY(-50%) scale(1.1); } 70% { opacity: 1; transform: translateY(-50%) scale(1); } 100% { opacity: 0; transform: translateY(-70%) scale(1); } }
+
+.tools { width: 100%; max-width: 440px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; padding: 6px 0 12px; }
+.tool {
+  border: 0; border-radius: 18px; padding: 12px 8px; background: var(--panel); color: #fff; cursor: pointer;
+  font-weight: 900; font-size: 14px; display: flex; flex-direction: column; align-items: center; gap: 2px;
+}
+.tool small { font-weight: 700; font-size: 11px; color: var(--muted); }
+.tool:active { transform: scale(0.96); }
+.tool[disabled] { opacity: 0.4; }
+.tool.armed { background: linear-gradient(135deg, #ffd23f, #ff7a59); color: #2b1a6b; }
+.tool.armed small { color: rgba(43,26,107,0.8); }
+
+/* ---------- Overlays ---------- */
+.overlay {
+  position: absolute; inset: 0; display: none; align-items: center; justify-content: center;
+  background: rgba(8, 6, 26, 0.72); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  padding: 16px; padding-top: calc(var(--safe-top) + 16px); padding-bottom: calc(var(--safe-bottom) + var(--banner-h) + 16px);
+  z-index: 20;
+}
+.overlay.active { display: flex; }
+.card {
+  width: 100%; max-width: 360px; background: linear-gradient(160deg, #2a1d6e, #1a1246);
+  border-radius: 28px; padding: 22px 20px; text-align: center;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.5); border: 1px solid rgba(255,255,255,0.08);
+  animation: cardin .32s cubic-bezier(.2,.9,.3,1.2);
+}
+@keyframes cardin { from { transform: translateY(30px) scale(0.92); opacity: 0; } to { transform: none; opacity: 1; } }
+.card h2 { margin: 0; font-size: 26px; font-weight: 900; letter-spacing: 0.06em; }
+.card .kicker { color: var(--muted); font-size: 12px; font-weight: 800; letter-spacing: 0.18em; margin-top: 4px; }
+.card .stat { margin-top: 16px; }
+.card .stat .lbl { font-size: 12px; letter-spacing: 0.18em; color: var(--muted); font-weight: 800; }
+.card .stat .big { font-size: 46px; font-weight: 900; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.card .stat .mid { font-size: 28px; font-weight: 900; font-variant-numeric: tabular-nums; }
+.card .stat.fire .big { background: linear-gradient(90deg, #ffd23f, #ff7a59, #ff4d6d); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.card .newbest { display: inline-block; margin-top: 10px; padding: 6px 14px; border-radius: 999px; background: linear-gradient(135deg, #ffd23f, #ff7a59); color: #2b1a6b; font-weight: 900; font-size: 13px; letter-spacing: 0.12em; animation: bump .5s ease; }
+.card .beat { margin-top: 14px; font-weight: 900; font-size: 18px; letter-spacing: 0.04em; }
+.card .row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 18px; }
+.card .row.single { grid-template-columns: 1fr; }
+.btn {
+  border: 0; border-radius: 999px; padding: 14px 16px; font-weight: 900; font-size: 16px; letter-spacing: 0.04em; cursor: pointer;
+  background: var(--panel-strong); color: #fff;
+}
+.btn:active { transform: scale(0.97); }
+.btn.primary { background: linear-gradient(135deg, var(--accent-1), var(--accent-2)); box-shadow: 0 8px 24px rgba(255,77,109,0.4); }
+.btn.green { background: linear-gradient(135deg, #34d399, #10b981); box-shadow: 0 8px 24px rgba(16,185,129,0.35); }
+.btn.ghost { background: transparent; color: var(--muted); }
+.btn .tag { display: block; font-size: 11px; font-weight: 800; letter-spacing: 0.1em; opacity: 0.85; }
+.card p { color: var(--muted); font-size: 14px; line-height: 1.5; margin: 12px 0 0; }
+.card .howto { text-align: left; margin-top: 14px; }
+.card .howto div { display: flex; gap: 12px; align-items: center; padding: 8px 0; border-top: 1px solid rgba(255,255,255,0.08); font-size: 14px; }
+.card .howto div:first-child { border-top: 0; }
+.card .howto b { font-size: 22px; width: 32px; text-align: center; }
+.card .settings { display: grid; gap: 10px; margin-top: 16px; }
+.card .settings button { display: flex; justify-content: space-between; align-items: center; }
+.card .settings button span:last-child { font-weight: 800; color: var(--muted); }
+
+/* Fake ad (web preview only) */
+.fake-ad { max-width: 320px; }
+.fake-ad .box { background: #fff; color: #222; border-radius: 16px; padding: 24px 16px; margin-top: 14px; font-weight: 800; }
+.fake-ad .box small { display: block; color: #777; font-weight: 600; margin-top: 6px; }
+
+/* Bottom ad space */
+#adspace {
+  position: fixed; left: 0; right: 0; bottom: 0; height: var(--banner-h);
+  display: none; align-items: center; justify-content: center;
+  background: rgba(0,0,0,0.35); color: rgba(255,255,255,0.35); font-size: 11px; letter-spacing: 0.14em; font-weight: 800;
+  padding-bottom: var(--safe-bottom); box-sizing: content-box; z-index: 5;
+}
+#adspace.show { display: flex; }
+
+.toast {
+  position: fixed; left: 50%; bottom: calc(var(--safe-bottom) + var(--banner-h) + 90px); transform: translateX(-50%) translateY(20px);
+  background: rgba(255,255,255,0.95); color: #2b1a6b; font-weight: 800; font-size: 14px; padding: 10px 16px; border-radius: 999px;
+  opacity: 0; pointer-events: none; transition: all .25s ease; z-index: 30; white-space: nowrap;
+}
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+.shake-screen { animation: screenshake .35s ease; }
+@keyframes screenshake { 0%,100% { transform: translate(0,0); } 20% { transform: translate(-5px, 3px); } 40% { transform: translate(5px, -3px); } 60% { transform: translate(-4px, 2px); } 80% { transform: translate(4px, -2px); } }
+
+@media (max-height: 640px) {
+  .logo { margin-top: 0; }
+  .best { margin-top: 1vh; }
+  .daily { margin-top: 1vh; padding: 10px 14px; }
+  .btn-primary { padding: 14px 20px; font-size: 20px; }
+}
+
+/* ---------- Low moves / max combo ---------- */
+.pill.low { background: rgba(255,77,109,0.25); animation: pulse 0.9s ease-in-out infinite; }
+@keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(255,77,109,0); } 50% { box-shadow: 0 0 0 6px rgba(255,77,109,0.25); } }
+.pill.combo.max { background: linear-gradient(135deg, #ffd23f, #ff7a59, #ff4d6d); box-shadow: 0 0 24px rgba(255,210,63,0.6); }
+.pill.combo.max .lbl { color: rgba(43,26,107,0.8); }
+.pill.combo.max .val { color: #2b1a6b; }
+
+/* ---------- Demo ---------- */
+.overlay.demo { background: rgba(8, 6, 26, 0.9); align-items: stretch; padding: 0; }
+.demo-card {
+  width: 100%; max-width: 440px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+  padding: calc(var(--safe-top) + 12px) 16px calc(var(--safe-bottom) + var(--banner-h) + 16px);
+}
+.demo-hud { width: 100%; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px; }
+.demo-title { font-size: 12px; letter-spacing: 0.22em; font-weight: 900; color: var(--muted); text-align: center; }
+.demo-caption { font-size: clamp(22px, 6vw, 30px); font-weight: 900; text-align: center; letter-spacing: 0.02em; margin-top: 8px; min-height: 1.2em; text-wrap: balance; }
+.demo-caption.in { animation: capin .35s cubic-bezier(.2,.9,.3,1.2); }
+@keyframes capin { from { opacity: 0; transform: translateY(8px) scale(0.96); } to { opacity: 1; transform: none; } }
+.demo-sub { color: var(--muted); font-size: 14px; text-align: center; min-height: 1.3em; }
+.demo-wrap { width: 100%; display: flex; justify-content: center; margin: 6px 0; }
+#demoBoard { display: block; border-radius: 20px; }
+.demo-card .row { width: 100%; max-width: 360px; display: grid; grid-template-columns: 1fr 1.4fr; gap: 10px; margin-top: 6px; }
+@media (prefers-reduced-motion: reduce) { .logo .dots i { animation: none; } .pill.low { animation: none; } }
+
+  </style>
+</head>
+<body>
+<div id="app">
+
+  <!-- HOME -->
+  <section id="home" class="screen active">
+    <div class="home-top">
+      <button id="soundBtn" class="icon-btn" aria-label="Sound"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor" stroke="none"/><path class="wave" d="M16 9a4 4 0 0 1 0 6"/><path class="wave" d="M18.5 6.5a7.5 7.5 0 0 1 0 11"/><path class="mute" d="M16 9l5 6M21 9l-5 6"/></svg></button>
+      <button id="helpBtn" class="icon-btn" aria-label="How to play"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 9.5a3 3 0 1 1 4.5 2.6c-1 .6-1.5 1.2-1.5 2.4"/><circle cx="12" cy="18" r="1.1" fill="currentColor" stroke="none"/></svg></button>
+      <button id="settingsBtn" class="icon-btn" aria-label="Settings"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button>
+    </div>
+    <div>
+      <div class="logo">
+        <h1><span>HUE</span> <span>POP</span></h1>
+        <div class="dots"><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <div class="best"><div class="label">BEST</div><div class="value" id="bestValue">0</div></div>
+      <button id="playBtn" class="btn-primary">PLAY</button>
+      <div class="daily">
+        <div>
+          <div class="title">DAILY CHALLENGE</div>
+          <div class="sub" id="dailySub">Same board for everyone</div>
+          <div class="streak">🔥 Streak: <span id="streakValue">0</span></div>
+        </div>
+        <button id="dailyBtn">PLAY</button>
+      </div>
+    </div>
+    <div class="home-bottom">Tap 2+ matching balls to pop them</div>
+  </section>
+
+  <!-- GAME -->
+  <section id="game" class="screen">
+    <div class="hud">
+      <div class="pill" id="movesPill"><span class="lbl">MOVES</span><span class="val" id="movesValue">20</span></div>
+      <div class="score"><div class="lbl" id="modeTag">CLASSIC</div><div class="val" id="scoreValue">0</div></div>
+      <div class="pill combo" id="comboPill"><span class="lbl">COMBO</span><span class="val" id="comboValue">x1</span></div>
+    </div>
+    <div class="board-wrap">
+      <canvas id="board" width="300" height="300"></canvas>
+      <div class="board-msg" id="boardMsg"></div>
+    </div>
+    <div class="tools">
+      <button class="tool" id="undoBtn">↩ UNDO<small id="undoTag">FREE</small></button>
+      <button class="tool" id="bombBtn">💣 BOMB<small id="bombTag">WATCH AD</small></button>
+      <button class="tool" id="homeBtn">🏠 HOME<small>&nbsp;</small></button>
+    </div>
+  </section>
+
+  <!-- OVERLAYS -->
+  <div class="overlay demo" id="demo">
+    <div class="demo-card">
+      <div class="demo-hud">
+        <div class="pill"><span class="lbl">SCORE</span><span class="val" id="demoScore">0</span></div>
+        <div class="demo-title">HOW TO PLAY</div>
+        <div class="pill combo" id="demoCombo"><span class="lbl">COMBO</span><span class="val">x1</span></div>
+      </div>
+      <div class="demo-caption" id="demoCaption">WELCOME TO HUE POP</div>
+      <div class="demo-sub" id="demoSub">Watch how it works</div>
+      <div class="demo-wrap" id="demoWrap"><canvas id="demoBoard" width="300" height="300"></canvas></div>
+      <div class="row"><button class="btn" id="demoReplay">↻ REPLAY</button><button class="btn primary" id="demoNext">SKIP</button></div>
+    </div>
+  </div>
+
+  <div class="overlay" id="settings">
+    <div class="card">
+      <h2>SETTINGS</h2>
+      <div class="settings">
+        <button class="btn" id="setSound"><span>Sound</span><span>ON</span></button>
+        <button class="btn" id="setHaptics"><span>Vibration</span><span>ON</span></button>
+        <button class="btn" id="setShapes"><span>Colorblind shapes</span><span>OFF</span></button>
+        <button class="btn" id="setHelp"><span>How to play</span><span>›</span></button>
+      </div>
+      <p><a id="privacyLink" href="#" target="_blank" rel="noopener" style="color:inherit">Privacy policy</a> · v1.0.0</p>
+      <div class="row single"><button class="btn primary" id="settingsClose">DONE</button></div>
+    </div>
+  </div>
+
+  <div class="overlay" id="quit">
+    <div class="card">
+      <h2>QUIT GAME?</h2>
+      <p>Your current score will be lost.</p>
+      <div class="row"><button class="btn" id="quitYes">QUIT</button><button class="btn primary" id="quitNo">KEEP PLAYING</button></div>
+    </div>
+  </div>
+
+  <div class="overlay" id="outOfMoves">
+    <div class="card">
+      <h2>OUT OF MOVES</h2>
+      <div class="stat"><div class="lbl">SCORE SO FAR</div><div class="big" id="outScore">0</div></div>
+      <div class="row single"><button class="btn green" id="continueBtn">▶ +5 MOVES<span class="tag">WATCH A SHORT AD</span></button></div>
+      <div class="row single"><button class="btn ghost" id="finishBtn">No thanks, finish</button></div>
+    </div>
+  </div>
+
+  <div class="overlay" id="gameOver">
+    <div class="card">
+      <h2 id="overTitle">GAME OVER</h2>
+      <div class="kicker" id="overKicker">NICE RUN</div>
+      <div class="stat fire"><div class="lbl">🔥 YOUR BEST COMBO</div><div class="big" id="comboBalls">0 BALLS</div><div class="kicker" id="comboMult"></div></div>
+      <div class="stat"><div class="lbl">SCORE</div><div class="big" id="finalScore">0</div></div>
+      <div class="newbest" id="newBest" style="display:none">NEW BEST!</div>
+      <div class="beat" id="beatLine"></div>
+      <div class="row single"><button class="btn primary" id="shareBtn">📤 SHARE · CAN YOU BEAT ME?</button></div>
+      <div class="row"><button class="btn green" id="againBtn">PLAY AGAIN</button><button class="btn" id="overHomeBtn">HOME</button></div>
+    </div>
+  </div>
+
+  <div class="overlay" id="cardView">
+    <div class="card">
+      <h2>YOUR SCORE CARD</h2>
+      <img id="cardImg" alt="Score card" style="width:100%;border-radius:18px;margin-top:12px;display:block">
+      <p id="cardHint">Press and hold the image to save it, then post it anywhere.</p>
+      <div class="row"><button class="btn" id="cardCopy">COPY CAPTION</button><button class="btn primary" id="cardClose">DONE</button></div>
+    </div>
+  </div>
+
+  <div class="overlay" id="fakead">
+    <div class="card fake-ad">
+      <h2>AD</h2>
+      <div class="box">Test ad</div>
+      <div class="row single"><button class="btn primary">Close</button></div>
+    </div>
+  </div>
+
+</div>
+<div id="adspace">AD BANNER SHOWS HERE IN THE APP</div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   HUE POP SETTINGS
+   This is the only file you should ever need to edit.
+   ============================================================ */
+window.HUE_POP_CONFIG = {
+  appName: 'Hue Pop',
+
+  // Links used in the share card and the "Rate" button.
+  // Replace these with the real store links after the app is live.
+  appStoreUrl: 'https://apps.apple.com/app/id0000000000',
+  playStoreUrl: 'https://play.google.com/store/apps/details?id=com.fireroofs.huepop',
+  websiteUrl: 'https://fireroofs-shawn.github.io/hue-pop/',
+  privacyUrl: 'https://fireroofs-shawn.github.io/hue-pop/privacy.html',
+
+  ads: {
+    // true = Google's test ads (safe while developing). Set to false before you publish.
+    testing: true,
+
+    // Show an interstitial (full screen) ad after every N finished games.
+    interstitialEvery: 3,
+
+    // Paste your real AdMob ad unit IDs here (from admob.google.com > Apps > Ad units).
+    // The values below are Google's official TEST ad units. They never earn money.
+    android: {
+      banner: 'ca-app-pub-3940256099942544/6300978111',
+      interstitial: 'ca-app-pub-3940256099942544/1033173712',
+      rewarded: 'ca-app-pub-3940256099942544/5224354917',
+    },
+    ios: {
+      banner: 'ca-app-pub-3940256099942544/2435281174',
+      interstitial: 'ca-app-pub-3940256099942544/4411468910',
+      rewarded: 'ca-app-pub-3940256099942544/1712485313',
+    },
+  },
+};
+
+</script>
+<script>
+/* Hue Pop game engine. Pure logic, no DOM. Works in the browser and in Node (for tests). */
+(function (root, factory) {
+  if (typeof module === 'object' && module.exports) module.exports = factory();
+  else root.HuePopEngine = factory();
+})(typeof self !== 'undefined' ? self : this, function () {
+  'use strict';
+
+  const COLS = 6;
+  const ROWS = 6;
+  const NCOLORS = 5;
+
+  // Tuning knobs. Keep these in one place so the game can be balanced later.
+  const RULES = {
+    moves: 20,          // taps per game
+    chainMin: 4,        // a pop of at least this many balls grows the combo
+    chainBreak: 2,      // a pop this small breaks the combo (3 keeps it alive but does not grow it)
+    maxMult: 8,         // combo multiplier cap
+    continueMoves: 5,   // extra moves granted by the rewarded "continue"
+    basePoints: (n) => n * n * 10,
+    megaPop: 8,         // balls in one pop that counts as a MEGA pop
+  };
+
+  // Small fast seeded RNG (mulberry32) so the Daily Challenge is the same board for everyone.
+  function mulberry32(seed) {
+    let a = seed >>> 0;
+    return function () {
+      a = (a + 0x6D2B79F5) >>> 0;
+      let t = a;
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  function hashString(str) {
+    let h = 2166136261 >>> 0;
+    for (let i = 0; i < str.length; i++) {
+      h ^= str.charCodeAt(i);
+      h = Math.imul(h, 16777619) >>> 0;
+    }
+    return h >>> 0;
+  }
+
+  // Seed for a given local calendar day, e.g. "2026-09-18"
+  function dailySeed(dateKey) {
+    return hashString('huepop-daily-' + dateKey);
+  }
+
+  function Engine(options) {
+    options = options || {};
+    this.seed = options.seed != null ? options.seed : (Math.random() * 0xFFFFFFFF) >>> 0;
+    this.mode = options.mode || 'classic'; // 'classic' | 'daily'
+    this.rules = Object.assign({}, RULES, options.rules || {});
+    this.reset();
+  }
+
+  Engine.prototype.reset = function () {
+    this.rng = mulberry32(this.seed);
+    // In daily mode each column has its own deterministic feed so everyone gets the same future.
+    this.colRng = [];
+    for (let c = 0; c < COLS; c++) this.colRng.push(mulberry32((this.seed + 1013904223 * (c + 1)) >>> 0));
+    this.grid = [];
+    for (let r = 0; r < ROWS; r++) {
+      const row = [];
+      for (let c = 0; c < COLS; c++) row.push(Math.floor(this.rng() * NCOLORS));
+      this.grid.push(row);
+    }
+    // Make sure the opening board always has at least one decent group.
+    let guard = 0;
+    while (this.largestGroupSize() < 3 && guard++ < 50) {
+      const r = Math.floor(this.rng() * ROWS), c = Math.floor(this.rng() * COLS);
+      this.grid[r][c] = Math.floor(this.rng() * NCOLORS);
+    }
+    this.moves = this.rules.moves;
+    this.score = 0;
+    this.mult = 1;
+    this.chainBalls = 0;      // balls popped in the current combo chain
+    this.bestChainBalls = 0;  // best chain of the game ("YOUR BEST COMBO: 47 BALLS")
+    this.bestMult = 1;
+    this.bestPop = 0;         // biggest single pop
+    this.pops = 0;
+    this.ballsPopped = 0;
+    this.continued = false;
+    this.over = false;
+    this.history = [];
+  };
+
+  Engine.prototype.nextColor = function (col) {
+    return Math.floor(this.colRng[col]() * NCOLORS);
+  };
+
+  Engine.prototype.inBounds = function (r, c) {
+    return r >= 0 && r < ROWS && c >= 0 && c < COLS;
+  };
+
+  // Flood fill of same-colored, orthogonally connected balls.
+  Engine.prototype.findGroup = function (r, c) {
+    const color = this.grid[r][c];
+    if (color < 0) return [];
+    const seen = new Set();
+    const stack = [[r, c]];
+    const out = [];
+    while (stack.length) {
+      const [y, x] = stack.pop();
+      const key = y * COLS + x;
+      if (seen.has(key)) continue;
+      if (!this.inBounds(y, x) || this.grid[y][x] !== color) continue;
+      seen.add(key);
+      out.push({ r: y, c: x });
+      stack.push([y + 1, x], [y - 1, x], [y, x + 1], [y, x - 1]);
+    }
+    return out;
+  };
+
+  Engine.prototype.allGroups = function () {
+    const seen = new Set();
+    const groups = [];
+    for (let r = 0; r < ROWS; r++) for (let c = 0; c < COLS; c++) {
+      const key = r * COLS + c;
+      if (seen.has(key) || this.grid[r][c] < 0) continue;
+      const g = this.findGroup(r, c);
+      g.forEach(p => seen.add(p.r * COLS + p.c));
+      groups.push(g);
+    }
+    return groups;
+  };
+
+  Engine.prototype.largestGroupSize = function () {
+    return this.allGroups().reduce((m, g) => Math.max(m, g.length), 0);
+  };
+
+  Engine.prototype.hasMoves = function () {
+    return this.allGroups().some(g => g.length >= 2);
+  };
+
+  Engine.prototype.snapshot = function () {
+    return {
+      grid: this.grid.map(row => row.slice()),
+      moves: this.moves, score: this.score, mult: this.mult,
+      chainBalls: this.chainBalls, bestChainBalls: this.bestChainBalls,
+      bestMult: this.bestMult, bestPop: this.bestPop, pops: this.pops,
+      ballsPopped: this.ballsPopped,
+      colRngState: null,
+    };
+  };
+
+  Engine.prototype.restore = function (s) {
+    this.grid = s.grid.map(row => row.slice());
+    this.moves = s.moves; this.score = s.score; this.mult = s.mult;
+    this.chainBalls = s.chainBalls; this.bestChainBalls = s.bestChainBalls;
+    this.bestMult = s.bestMult; this.bestPop = s.bestPop; this.pops = s.pops;
+    this.ballsPopped = s.ballsPopped;
+    this.over = false;
+  };
+
+  Engine.prototype.canUndo = function () {
+    return this.history.length > 0 && !this.over;
+  };
+
+  Engine.prototype.undo = function () {
+    if (!this.canUndo()) return false;
+    this.restore(this.history.pop());
+    return true;
+  };
+
+  // Remove the given cells, apply gravity, refill. Returns an animation-friendly result.
+  Engine.prototype.removeCells = function (cells, opts) {
+    opts = opts || {};
+    const n = cells.length;
+    const removed = cells.map(p => ({ r: p.r, c: p.c, color: this.grid[p.r][p.c] }));
+
+    // Scoring and combo
+    let chainEvent = 'none'; // 'grow' | 'keep' | 'break'
+    if (n >= this.rules.chainMin) {
+      this.mult = Math.min(this.rules.maxMult, this.mult + 1);
+      chainEvent = 'grow';
+    } else if (n <= this.rules.chainBreak) {
+      this.mult = 1;
+      chainEvent = 'break';
+    } else {
+      chainEvent = 'keep';
+    }
+    if (chainEvent === 'break') {
+      this.chainBalls = n;
+    } else {
+      this.chainBalls += n;
+    }
+    this.bestChainBalls = Math.max(this.bestChainBalls, this.chainBalls);
+    this.bestMult = Math.max(this.bestMult, this.mult);
+    const base = this.rules.basePoints(n);
+    const points = base * this.mult;
+    this.score += points;
+    this.bestPop = Math.max(this.bestPop, n);
+    this.pops++;
+    this.ballsPopped += n;
+    if (!opts.freeMove) this.moves--;
+
+    // Clear
+    cells.forEach(p => { this.grid[p.r][p.c] = -1; });
+
+    // Gravity: per column, balls fall to the bottom.
+    const fell = [];
+    for (let c = 0; c < COLS; c++) {
+      let write = ROWS - 1;
+      for (let r = ROWS - 1; r >= 0; r--) {
+        if (this.grid[r][c] >= 0) {
+          if (write !== r) {
+            this.grid[write][c] = this.grid[r][c];
+            this.grid[r][c] = -1;
+            fell.push({ c: c, from: r, to: write, color: this.grid[write][c] });
+          }
+          write--;
+        }
+      }
+    }
+    // Refill from the top: new balls enter above the board and drop in.
+    const added = [];
+    for (let c = 0; c < COLS; c++) {
+      let missing = 0;
+      for (let r = 0; r < ROWS; r++) if (this.grid[r][c] < 0) missing++;
+      for (let r = missing - 1; r >= 0; r--) {
+        const color = this.nextColor(c);
+        this.grid[r][c] = color;
+        // from is a negative row (above the board) so it animates falling in
+        added.push({ c: c, from: r - missing, to: r, color: color });
+      }
+    }
+
+    const noMoves = !this.hasMoves();
+    if (this.moves <= 0 || noMoves) this.over = true;
+
+    return {
+      removed: removed, points: points, mult: this.mult, chainEvent: chainEvent,
+      n: n, fell: fell, added: added, over: this.over, outOfMoves: this.moves <= 0, stuck: noMoves,
+      mega: n >= this.rules.megaPop,
+    };
+  };
+
+  // Player taps a ball. Returns null if that is not a valid move.
+  Engine.prototype.tap = function (r, c) {
+    if (this.over || !this.inBounds(r, c)) return null;
+    const group = this.findGroup(r, c);
+    if (group.length < 2) return null;
+    this.history = [this.snapshot()]; // one level of undo
+    return this.removeCells(group);
+  };
+
+  // Color bomb: pops every ball of the tapped color.
+  Engine.prototype.bomb = function (r, c) {
+    if (this.over || !this.inBounds(r, c)) return null;
+    const color = this.grid[r][c];
+    const cells = [];
+    for (let y = 0; y < ROWS; y++) for (let x = 0; x < COLS; x++) if (this.grid[y][x] === color) cells.push({ r: y, c: x });
+    this.history = [this.snapshot()];
+    return this.removeCells(cells, { freeMove: true });
+  };
+
+  Engine.prototype.grantMoves = function (n) {
+    this.moves += n;
+    this.continued = true;
+    this.over = !this.hasMoves();
+  };
+
+  Engine.prototype.summary = function () {
+    return {
+      score: this.score, bestChainBalls: this.bestChainBalls, bestMult: this.bestMult,
+      bestPop: this.bestPop, pops: this.pops, ballsPopped: this.ballsPopped, mode: this.mode, seed: this.seed,
+    };
+  };
+
+  return { Engine: Engine, COLS: COLS, ROWS: ROWS, NCOLORS: NCOLORS, RULES: RULES, mulberry32: mulberry32, dailySeed: dailySeed, hashString: hashString };
+});
+
+</script>
+<script>
+/* Hue Pop sound: everything is synthesized with Web Audio, no audio files needed.
+   Casino flavor: bells, coins, risers, jackpot. */
+(function () {
+  'use strict';
+
+  const PENTA = [0, 2, 4, 7, 9, 12, 14, 16, 19, 21]; // major pentatonic steps (semitones)
+  const st = (base, semis) => base * Math.pow(2, semis / 12);
+
+  const Sound = {
+    ctx: null, master: null, enabled: true, lastLand: 0, lastTick: 0,
+
+    unlock() {
+      if (!this.ctx) {
+        try {
+          this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+          const comp = this.ctx.createDynamicsCompressor();
+          comp.threshold.value = -14; comp.knee.value = 20; comp.ratio.value = 6; comp.attack.value = 0.003; comp.release.value = 0.12;
+          this.master = this.ctx.createGain(); this.master.gain.value = 0.85;
+          this.master.connect(comp); comp.connect(this.ctx.destination);
+        } catch (e) { return; }
+      }
+      if (this.ctx.state === 'suspended') this.ctx.resume().catch(function () {});
+    },
+    ok() { return this.enabled && this.ctx && this.master; },
+    _base: null,            // set during offline rendering: the event's start time in seconds
+    now() { return this._base != null ? this._base : this.ctx.currentTime; },
+    nowMs() { return this._base != null ? this._base * 1000 : performance.now(); },
+
+    /* ---- building blocks ---- */
+    tone(freq, dur, type, vol, when, slideTo, attack) {
+      if (!this.ok()) return;
+      const c = this.ctx, t = this.now() + (when || 0);
+      const o = c.createOscillator(), g = c.createGain();
+      o.type = type || 'triangle'; o.frequency.setValueAtTime(freq, t);
+      if (slideTo) o.frequency.exponentialRampToValueAtTime(Math.max(30, slideTo), t + dur);
+      g.gain.setValueAtTime(0.0001, t);
+      g.gain.exponentialRampToValueAtTime(vol || 0.2, t + (attack || 0.006));
+      g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+      o.connect(g); g.connect(this.master); o.start(t); o.stop(t + dur + 0.03);
+    },
+    noise(dur, vol, when, fromHz, toHz, q) {
+      if (!this.ok()) return;
+      const c = this.ctx, t = this.now() + (when || 0);
+      const len = Math.floor(c.sampleRate * dur), buf = c.createBuffer(1, len, c.sampleRate), d = buf.getChannelData(0);
+      for (let i = 0; i < len; i++) d[i] = Math.random() * 2 - 1;
+      const s = c.createBufferSource(), g = c.createGain(), f = c.createBiquadFilter();
+      f.type = 'bandpass'; f.Q.value = q || 1.2; f.frequency.setValueAtTime(fromHz || 1500, t);
+      if (toHz) f.frequency.exponentialRampToValueAtTime(toHz, t + dur);
+      s.buffer = buf; g.gain.setValueAtTime(vol || 0.15, t); g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+      s.connect(f); f.connect(g); g.connect(this.master); s.start(t); s.stop(t + dur + 0.02);
+    },
+    // Casino bell: a bright inharmonic strike that rings out.
+    bell(freq, when, dur, vol) {
+      dur = dur || 0.7; vol = vol || 0.22;
+      this.tone(freq, dur, 'sine', vol, when);
+      this.tone(freq * 2.76, dur * 0.55, 'sine', vol * 0.45, when);
+      this.tone(freq * 5.4, dur * 0.3, 'sine', vol * 0.2, when);
+      this.tone(freq * 1.005, dur * 0.9, 'triangle', vol * 0.25, when);
+      this.noise(0.03, vol * 0.5, when, 4000, 6000, 0.8);
+    },
+    // Classic coin: two quick high blips.
+    coin(when, pitch, vol) {
+      pitch = pitch || 1; vol = vol || 0.16;
+      this.tone(1975 * pitch, 0.07, 'square', vol * 0.35, when);
+      this.tone(2637 * pitch, 0.32, 'square', vol * 0.35, (when || 0) + 0.07);
+      this.tone(2637 * pitch, 0.32, 'sine', vol, (when || 0) + 0.07);
+    },
+    coinShower(n, when, gap) {
+      gap = gap || 0.055;
+      for (let i = 0; i < n; i++) this.coin((when || 0) + i * gap, 1 + (i % 4) * 0.06, 0.12);
+    },
+    // Suspense riser: pitch and brightness climb, then release.
+    riser(dur, when, vol) {
+      if (!this.ok()) return;
+      dur = dur || 0.9; vol = vol || 0.12;
+      const c = this.ctx, t = this.now() + (when || 0);
+      const o = c.createOscillator(), f = c.createBiquadFilter(), g = c.createGain();
+      o.type = 'sawtooth'; o.frequency.setValueAtTime(140, t); o.frequency.exponentialRampToValueAtTime(560, t + dur);
+      f.type = 'lowpass'; f.frequency.setValueAtTime(300, t); f.frequency.exponentialRampToValueAtTime(4000, t + dur); f.Q.value = 6;
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(vol, t + dur * 0.9); g.gain.exponentialRampToValueAtTime(0.0001, t + dur + 0.08);
+      o.connect(f); f.connect(g); g.connect(this.master); o.start(t); o.stop(t + dur + 0.1);
+      this.noise(dur, vol * 0.9, when, 400, 6000, 2);
+      // a fast tremolo tick train that speeds up, like a wheel about to stop
+      let tt = 0, k = 0;
+      while (tt < dur) { this.tone(900 + k * 40, 0.03, 'square', vol * 0.35, (when || 0) + tt); tt += Math.max(0.035, 0.13 - k * 0.012); k++; }
+    },
+    thump(when, freq, vol) { this.tone(freq || 70, 0.18, 'sine', vol || 0.35, when, (freq || 70) * 0.5, 0.004); this.noise(0.05, (vol || 0.35) * 0.4, when, 120, 90, 0.7); },
+    drumroll(dur, when) { let t = 0, i = 0; while (t < dur) { this.thump((when || 0) + t, 90 + i, 0.16); t += 0.07; i++; } },
+
+    /* ---- game events ---- */
+    click() { this.tone(720, 0.04, 'sine', 0.07); },
+    start() {
+      // spin-up as the balls drop in, then a ready bell
+      this.noise(0.55, 0.12, 0, 300, 2400, 1.5);
+      [0, 2, 4, 7].forEach((s, i) => this.tone(st(330, s), 0.12, 'triangle', 0.09, 0.06 + i * 0.09));
+      this.bell(1046, 0.5, 0.5, 0.14);
+    },
+    pop(n, mult) {
+      const base = st(392, PENTA[Math.min(mult - 1, PENTA.length - 1)]); // rises with the combo
+      this.tone(base, 0.13, 'triangle', 0.22, 0, base * 1.5);
+      this.tone(base * 2, 0.1, 'sine', 0.1, 0.02, base * 2.4);
+      if (n >= 4) this.bell(base * 2, 0.02, 0.35, 0.1);
+      if (n >= 6) { this.noise(0.14, 0.12, 0, 1800, 900, 1); this.coin(0.05, 1, 0.1); }
+      if (n >= 8) { this.bell(st(base, 7) * 2, 0.08, 0.5, 0.14); this.coin(0.14, 1.2, 0.1); }
+    },
+    land() { const now = this.nowMs(); if (now - this.lastLand < 45) return; this.lastLand = now; this.tone(110, 0.05, 'sine', 0.1, 0, 60); },
+    comboGrow(mult, max) {
+      // each step higher than the last; from x4 up, a suspense riser leads into the bell
+      const note = st(523, PENTA[Math.min(mult - 1, PENTA.length - 1)]);
+      if (mult >= 4 && mult < max) { this.riser(0.45 + mult * 0.05, 0, 0.09); this.bell(note, 0.5 + mult * 0.05, 0.5, 0.16); }
+      else { this.tone(note, 0.1, 'square', 0.05); this.tone(note * 1.25, 0.1, 'square', 0.05, 0.07); this.bell(note * 1.5, 0.14, 0.45, 0.12); }
+      if (mult >= max) this.jackpot();
+    },
+    comboBreak() { this.tone(320, 0.28, 'sawtooth', 0.09, 0, 110); this.thump(0.05, 60, 0.25); },
+    mega() { this.bell(1318, 0, 0.6, 0.2); this.bell(1568, 0.09, 0.6, 0.2); this.bell(2093, 0.18, 0.8, 0.22); this.coinShower(6, 0.2, 0.05); },
+    jackpot() {
+      // slot machine payout: bell arpeggio, coin cascade, big final bell
+      [523, 659, 784, 1046, 1318].forEach((f, i) => this.bell(f, i * 0.09, 0.5, 0.16));
+      this.coinShower(14, 0.3, 0.05);
+      this.bell(2093, 1.05, 1.2, 0.24);
+      this.tone(130, 0.5, 'sawtooth', 0.06, 1.0, 65);
+    },
+    lowMoves(moves) {
+      // last 5 moves: rising heartbeat, tighter each time
+      if (moves > 5 || moves < 1) return;
+      const f = 60 + (6 - moves) * 12;
+      this.thump(0, f, 0.28); this.thump(0.16, f * 1.15, 0.22);
+      if (moves <= 2) this.tone(880 + (3 - moves) * 200, 0.08, 'square', 0.05, 0.32);
+    },
+    outOfMoves() { this.drumroll(0.6, 0); this.tone(440, 0.3, 'triangle', 0.14, 0.62, 220); this.thump(0.62, 55, 0.35); },
+    tallyTick(progress) {
+      const now = this.nowMs(); if (now - this.lastTick < 28) return; this.lastTick = now;
+      this.tone(1200 + progress * 1400, 0.035, 'square', 0.05); this.tone(2400 + progress * 2000, 0.03, 'sine', 0.04);
+    },
+    tallyDone(isBest) { if (isBest) this.jackpot(); else { this.bell(1568, 0, 0.7, 0.2); this.coin(0.05, 1.1, 0.12); } },
+    over() { this.tone(523, 0.16, 'triangle', 0.13); this.tone(392, 0.16, 'triangle', 0.13, 0.15); this.tone(330, 0.35, 'triangle', 0.13, 0.3); },
+    continueGranted() { this.coinShower(5, 0, 0.06); this.bell(1318, 0.3, 0.5, 0.16); },
+    bombArmed() { this.riser(0.5, 0, 0.08); this.bell(1046, 0.5, 0.4, 0.12); },
+    demoTap() { this.tone(880, 0.05, 'sine', 0.08); },
+  };
+
+  /* ---- Recording and offline rendering (used to give the demo video a soundtrack) ---- */
+  const EVENTS = ['click', 'start', 'pop', 'land', 'comboGrow', 'comboBreak', 'mega', 'jackpot', 'lowMoves', 'outOfMoves', 'tallyTick', 'tallyDone', 'over', 'continueGranted', 'bombArmed', 'demoTap', 'bell'];
+  Sound.recording = false; Sound.log = [];
+  EVENTS.forEach(function (name) {
+    const orig = Sound[name];
+    Sound[name] = function () {
+      if (Sound.recording && Sound._base == null) Sound.log.push({ t: performance.now(), name: name, args: [].slice.call(arguments) });
+      return orig.apply(this, arguments);
+    };
+  });
+  // A soft lounge style music bed: slow chord pads plus a sparkling arpeggio.
+  Sound.musicBed = function (duration, vol) {
+    vol = vol || 0.05;
+    const chords = [[261.6, 329.6, 392.0, 493.9], [220.0, 261.6, 329.6, 415.3], [174.6, 220.0, 261.6, 349.2], [196.0, 246.9, 293.7, 392.0]];
+    const bar = 2.4; let t = 0.2, i = 0;
+    while (t < duration) {
+      const ch = chords[i % chords.length];
+      ch.forEach(function (f, k) { Sound.tone(f / 2, bar * 0.98, 'triangle', vol * (k === 0 ? 0.9 : 0.5), t, null, 0.4); });
+      for (let n = 0; n < 8; n++) { const f = ch[(n * 3) % ch.length] * (n % 4 === 3 ? 4 : 2); Sound.tone(f, 0.22, 'sine', vol * 0.55, t + n * bar / 8, null, 0.01); }
+      t += bar; i++;
+    }
+  };
+  // Re-plays the logged events into an OfflineAudioContext and returns a 16-bit stereo WAV as a base64 string.
+  Sound.renderOffline = async function (events, t0ms, durationSec, withMusic) {
+    const sr = 44100;
+    const off = new OfflineAudioContext(2, Math.ceil(sr * (durationSec + 1.5)), sr);
+    const saved = { ctx: this.ctx, master: this.master, enabled: this.enabled, lastLand: this.lastLand, lastTick: this.lastTick };
+    const comp = off.createDynamicsCompressor(); comp.threshold.value = -14; comp.knee.value = 20; comp.ratio.value = 6; comp.attack.value = 0.003; comp.release.value = 0.12;
+    this.ctx = off; this.master = off.createGain(); this.master.gain.value = 0.85; this.master.connect(comp); comp.connect(off.destination);
+    this.enabled = true; this.lastLand = -1000; this.lastTick = -1000;
+    if (withMusic) { this._base = 0; this.musicBed(durationSec, 0.045); }
+    events.forEach((ev) => { this._base = Math.max(0, (ev.t - t0ms) / 1000); this[ev.name].apply(this, ev.args); });
+    this._base = null;
+    const buf = await off.startRendering();
+    Object.assign(this, saved);
+    // WAV encode
+    const n = buf.length, ch = buf.numberOfChannels, out = new DataView(new ArrayBuffer(44 + n * ch * 2));
+    const str = (o, s) => { for (let i = 0; i < s.length; i++) out.setUint8(o + i, s.charCodeAt(i)); };
+    str(0, 'RIFF'); out.setUint32(4, 36 + n * ch * 2, true); str(8, 'WAVE'); str(12, 'fmt '); out.setUint32(16, 16, true); out.setUint16(20, 1, true); out.setUint16(22, ch, true);
+    out.setUint32(24, sr, true); out.setUint32(28, sr * ch * 2, true); out.setUint16(32, ch * 2, true); out.setUint16(34, 16, true); str(36, 'data'); out.setUint32(40, n * ch * 2, true);
+    let o = 44; const chans = []; for (let c = 0; c < ch; c++) chans.push(buf.getChannelData(c));
+    for (let i = 0; i < n; i++) for (let c = 0; c < ch; c++) { const v = Math.max(-1, Math.min(1, chans[c][i])); out.setInt16(o, v < 0 ? v * 32768 : v * 32767, true); o += 2; }
+    const bytes = new Uint8Array(out.buffer); let bin = ''; const CH = 0x8000;
+    for (let i = 0; i < bytes.length; i += CH) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + CH));
+    return btoa(bin);
+  };
+
+  window.HuePopSound = Sound;
+})();
+
+</script>
+<script>
+/* Platform layer: storage, haptics, sharing and ads.
+   Runs on the plain web (preview) and inside the Capacitor app (iOS / Android). */
+(function () {
+  'use strict';
+  const CFG = window.HUE_POP_CONFIG;
+  const Cap = window.Capacitor;
+  const isNative = !!(Cap && Cap.isNativePlatform && Cap.isNativePlatform());
+  const platform = isNative ? Cap.getPlatform() : 'web';
+  const P = (isNative && Cap.Plugins) || {};
+
+  function log() { try { console.log.apply(console, ['[HuePop]'].concat([].slice.call(arguments))); } catch (e) {} }
+
+  /* ---------------- Storage ---------------- */
+  const Store = {
+    key: 'huepop.v1',
+    data: {},
+    async load() {
+      let raw = null;
+      try { raw = localStorage.getItem(this.key); } catch (e) {}
+      if (isNative && P.Preferences) {
+        try {
+          const res = await P.Preferences.get({ key: this.key });
+          if (res && res.value) raw = res.value; // native copy wins (survives WebView storage purges)
+        } catch (e) { log('prefs load failed', e); }
+      }
+      try { this.data = raw ? JSON.parse(raw) : {}; } catch (e) { this.data = {}; }
+      return this.data;
+    },
+    get(k, def) { return (k in this.data) ? this.data[k] : def; },
+    set(k, v) { this.data[k] = v; this.flush(); },
+    flush() {
+      const raw = JSON.stringify(this.data);
+      try { localStorage.setItem(this.key, raw); } catch (e) {}
+      if (isNative && P.Preferences) { P.Preferences.set({ key: this.key, value: raw }).catch(function () {}); }
+    },
+  };
+
+  /* ---------------- Haptics ---------------- */
+  const Haptics = {
+    tap() { this._impact('LIGHT'); },
+    pop(n) { this._impact(n >= 8 ? 'HEAVY' : n >= 4 ? 'MEDIUM' : 'LIGHT'); },
+    success() { if (isNative && P.Haptics) P.Haptics.notification({ type: 'SUCCESS' }).catch(function () {}); else this._vibrate([30, 40, 30]); },
+    warn() { if (isNative && P.Haptics) P.Haptics.notification({ type: 'WARNING' }).catch(function () {}); else this._vibrate([50]); },
+    _impact(style) {
+      if (isNative && P.Haptics) { P.Haptics.impact({ style: style }).catch(function () {}); }
+      else this._vibrate([style === 'HEAVY' ? 30 : style === 'MEDIUM' ? 18 : 8]);
+    },
+    _vibrate(pattern) { try { if (navigator.vibrate) navigator.vibrate(pattern); } catch (e) {} },
+  };
+
+  /* ---------------- Share ---------------- */
+  const ShareKit = {
+    // dataUrl: PNG data URL of the score card. text: caption.
+    async share(dataUrl, text, title) {
+      const link = platform === 'ios' ? CFG.appStoreUrl : platform === 'android' ? CFG.playStoreUrl : CFG.websiteUrl;
+      const fullText = text + ' ' + link;
+      if (isNative && P.Share) {
+        try {
+          let files = [];
+          if (P.Filesystem) {
+            const base64 = dataUrl.split(',')[1];
+            const w = await P.Filesystem.writeFile({ path: 'huepop-score.png', data: base64, directory: 'CACHE' });
+            files = [w.uri];
+          }
+          await P.Share.share({ title: title, text: fullText, files: files, dialogTitle: 'Share your score' });
+          return 'shared';
+        } catch (e) { log('native share failed', e); return 'cancelled'; }
+      }
+      // Web: try the Web Share API with the image, then text only, then download.
+      try {
+        const blob = await (await fetch(dataUrl)).blob();
+        const file = new File([blob], 'huepop-score.png', { type: 'image/png' });
+        if (navigator.canShare && navigator.canShare({ files: [file] })) {
+          await navigator.share({ title: title, text: fullText, files: [file] });
+          return 'shared';
+        }
+        if (navigator.share) { await navigator.share({ title: title, text: fullText }); return 'shared'; }
+      } catch (e) { if (e && e.name === 'AbortError') return 'cancelled'; log('web share failed', e); }
+      return 'unsupported';
+    },
+    fullText(text) {
+      const link = platform === 'ios' ? CFG.appStoreUrl : platform === 'android' ? CFG.playStoreUrl : CFG.websiteUrl;
+      return text + ' ' + link;
+    },
+  };
+
+  /* ---------------- Ads ---------------- */
+  // One object the game talks to. On the web it shows a harmless placeholder so the flow can be tested.
+  const Ads = {
+    ready: false,
+    bannerHeight: 0,
+    _interstitialReady: false,
+    _rewardReady: false,
+    _listeners: [],
+    onBannerHeight: null, // callback(heightPx)
+
+    ids() { return platform === 'ios' ? CFG.ads.ios : CFG.ads.android; },
+
+    async init() {
+      if (!isNative || !P.AdMob) { this._initWeb(); return; }
+      const AdMob = P.AdMob;
+      try {
+        // iOS: ask for tracking permission (required by Apple when AdMob is used). Consent form for EU/UK users.
+        try {
+          const st = await AdMob.trackingAuthorizationStatus();
+          if (st && st.status === 'notDetermined') await AdMob.requestTrackingAuthorization();
+        } catch (e) { log('ATT skipped', e); }
+        await AdMob.initialize({ initializeForTesting: !!CFG.ads.testing, maxAdContentRating: 'General', tagForChildDirectedTreatment: false });
+        try {
+          const info = await AdMob.requestConsentInfo({});
+          if (info && info.isConsentFormAvailable && info.status === 'REQUIRED') await AdMob.showConsentForm();
+        } catch (e) { log('consent skipped', e); }
+        this.ready = true;
+        const self = this;
+        AdMob.addListener('bannerAdSizeChanged', function (size) {
+          self.bannerHeight = size && size.height ? size.height : 0;
+          if (self.onBannerHeight) self.onBannerHeight(self.bannerHeight);
+        });
+        AdMob.addListener('bannerAdFailedToLoad', function (err) { log('banner failed', err); });
+        AdMob.addListener('interstitialAdDismissed', function () { self._interstitialReady = false; self.preloadInterstitial(); });
+        AdMob.addListener('interstitialAdFailedToLoad', function () { self._interstitialReady = false; });
+        AdMob.addListener('onRewardedVideoAdFailedToLoad', function () { self._rewardReady = false; });
+        this.preloadInterstitial();
+        this.preloadRewarded();
+      } catch (e) { log('AdMob init failed', e); }
+    },
+
+    _initWeb() {
+      this.ready = true;
+      this.bannerHeight = 50;
+      if (this.onBannerHeight) this.onBannerHeight(50);
+      const el = document.getElementById('adspace');
+      if (el) el.classList.add('show');
+    },
+
+    async showBanner() {
+      if (!isNative || !P.AdMob || !this.ready) return;
+      try {
+        await P.AdMob.showBanner({ adId: this.ids().banner, adSize: 'ADAPTIVE_BANNER', position: 'BOTTOM_CENTER', margin: 0, isTesting: !!CFG.ads.testing });
+      } catch (e) { log('showBanner failed', e); }
+    },
+    async hideBanner() {
+      if (!isNative || !P.AdMob || !this.ready) return;
+      try { await P.AdMob.hideBanner(); } catch (e) {}
+    },
+    async resumeBanner() {
+      if (!isNative || !P.AdMob || !this.ready) return;
+      try { await P.AdMob.resumeBanner(); } catch (e) { this.showBanner(); }
+    },
+
+    async preloadInterstitial() {
+      if (!isNative || !P.AdMob || !this.ready) return;
+      try { await P.AdMob.prepareInterstitial({ adId: this.ids().interstitial, isTesting: !!CFG.ads.testing }); this._interstitialReady = true; }
+      catch (e) { this._interstitialReady = false; log('prepareInterstitial failed', e); }
+    },
+    // Resolves when the ad is closed (or immediately if there is nothing to show).
+    async showInterstitial() {
+      if (!isNative || !P.AdMob) return this._fakeAd('interstitial');
+      if (!this._interstitialReady) { this.preloadInterstitial(); return false; }
+      try {
+        const AdMob = P.AdMob;
+        await new Promise(function (resolve) {
+          let done = false;
+          const finish = function () { if (!done) { done = true; resolve(); } };
+          AdMob.addListener('interstitialAdDismissed', finish);
+          AdMob.addListener('interstitialAdFailedToShow', finish);
+          AdMob.showInterstitial().catch(finish);
+          setTimeout(finish, 90000);
+        });
+        return true;
+      } catch (e) { log('showInterstitial failed', e); return false; }
+    },
+
+    async preloadRewarded() {
+      if (!isNative || !P.AdMob || !this.ready) return;
+      try { await P.AdMob.prepareRewardVideoAd({ adId: this.ids().rewarded, isTesting: !!CFG.ads.testing }); this._rewardReady = true; }
+      catch (e) { this._rewardReady = false; log('prepareRewarded failed', e); }
+    },
+    // Resolves true if the player earned the reward.
+    async showRewarded(reason) {
+      if (!isNative || !P.AdMob) return this._fakeAd('rewarded', reason);
+      if (!this._rewardReady) {
+        await this.preloadRewarded();
+        if (!this._rewardReady) return false;
+      }
+      try {
+        const AdMob = P.AdMob;
+        const self = this;
+        const earned = await new Promise(function (resolve) {
+          let got = false, done = false;
+          const finish = function (v) { if (!done) { done = true; resolve(v); } };
+          AdMob.addListener('onRewardedVideoAdReward', function () { got = true; });
+          AdMob.addListener('onRewardedVideoAdDismissed', function () { setTimeout(function () { finish(got); }, 50); });
+          AdMob.addListener('onRewardedVideoAdFailedToShow', function () { finish(false); });
+          AdMob.showRewardVideoAd().then(function (r) { if (r && (r.amount > 0 || r.type)) got = true; }).catch(function () { finish(false); });
+          setTimeout(function () { finish(got); }, 120000);
+        });
+        this._rewardReady = false;
+        this.preloadRewarded();
+        return earned;
+      } catch (e) { log('showRewarded failed', e); return false; }
+    },
+
+    // Web preview only: a small overlay standing in for the real ad.
+    _fakeAd(kind, reason) {
+      return new Promise(function (resolve) {
+        const ov = document.getElementById('fakead');
+        if (!ov) return resolve(true);
+        const title = ov.querySelector('h2'); const body = ov.querySelector('.box'); const btn = ov.querySelector('button');
+        const secs = kind === 'rewarded' ? 5 : 3;
+        title.textContent = kind === 'rewarded' ? 'REWARD AD' : 'AD';
+        let left = secs;
+        body.innerHTML = '<div>Test ad</div><small>In the real app a ' + (kind === 'rewarded' ? 'short video' : 'full screen ad') + ' plays here.</small>';
+        btn.textContent = 'Close in ' + left + 's'; btn.disabled = true;
+        ov.classList.add('active');
+        const t = setInterval(function () {
+          left--; btn.textContent = left > 0 ? 'Close in ' + left + 's' : (kind === 'rewarded' ? 'Collect reward' : 'Close');
+          if (left <= 0) { clearInterval(t); btn.disabled = false; }
+        }, 1000);
+        btn.onclick = function () { if (btn.disabled) return; ov.classList.remove('active'); resolve(true); };
+      });
+    },
+  };
+
+  window.Platform = { isNative: isNative, platform: platform, Store: Store, Haptics: Haptics, ShareKit: ShareKit, Ads: Ads, log: log };
+})();
+
+</script>
+<script>
+/* Hue Pop: screens, board rendering, animation, demo, sharing. */
+(function () {
+  'use strict';
+  const CFG = window.HUE_POP_CONFIG;
+  const { Engine, COLS, ROWS, NCOLORS, dailySeed } = window.HuePopEngine;
+  const { Store, Haptics, ShareKit, Ads, isNative } = window.Platform;
+  const Sound = window.HuePopSound;
+
+  const COLORS = [
+    { name: 'red', hex: '#ff4d6d', dark: '#b3163a', light: '#ffb3c1' },
+    { name: 'yellow', hex: '#ffd23f', dark: '#c48f00', light: '#fff0b3' },
+    { name: 'green', hex: '#3ddc84', dark: '#118a4a', light: '#b8f5d2' },
+    { name: 'blue', hex: '#3b9dff', dark: '#0f5fb8', light: '#b8dcff' },
+    { name: 'purple', hex: '#b85cff', dark: '#6d1fb3', light: '#e3c2ff' },
+  ];
+  const DEMO_SEED = 5; // a board where the scripted demo always works out
+
+  const $ = (sel) => document.querySelector(sel);
+  const fmt = (n) => Math.round(n).toLocaleString('en-US');
+  const pad2 = (n) => String(n).padStart(2, '0');
+  const dateKey = (d) => d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate());
+  const todayKey = () => dateKey(new Date());
+  const yesterdayKey = () => { const d = new Date(); d.setDate(d.getDate() - 1); return dateKey(d); };
+  const niceDate = (key) => { const p = key.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }); };
+  const fontFamily = () => getComputedStyle(document.body).fontFamily;
+  const restartAnim = (el, cls) => { el.classList.remove(cls); void el.offsetWidth; el.classList.add(cls); };
+
+  /* ================= Settings ================= */
+  const settings = { sound: true, haptics: true, shapes: false };
+
+  /* ================= Board: renders one engine onto one canvas ================= */
+  function roundRect(g, x, y, w, h, r) { g.beginPath(); g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r); g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath(); }
+
+  function Board(canvas) {
+    this.canvas = canvas; this.ctx = canvas.getContext('2d');
+    this.size = 300; this.cell = 50; this.dpr = 1; this.sprites = {};
+    this.vis = []; this.pops = []; this.parts = []; this.floats = [];
+    this.armed = false; this.pointer = null; // pointer: {x, y, press} for the demo hand
+    this.onLand = null;
+  }
+  Board.prototype.layout = function (px) {
+    this.size = Math.max(120, Math.floor(px));
+    this.dpr = Math.min(3, window.devicePixelRatio || 1);
+    this.canvas.style.width = this.size + 'px'; this.canvas.style.height = this.size + 'px';
+    this.canvas.width = Math.floor(this.size * this.dpr); this.canvas.height = Math.floor(this.size * this.dpr);
+    this.cell = this.size / COLS; this.sprites = {}; this.draw();
+  };
+  Board.prototype.sprite = function (color) {
+    const key = color + ':' + Math.round(this.cell) + ':' + (settings.shapes ? 1 : 0);
+    if (this.sprites[key]) return this.sprites[key];
+    const cell = this.cell, dpr = this.dpr, r = cell * 0.43;
+    const c = document.createElement('canvas'); const px = Math.ceil(cell * dpr); c.width = px; c.height = px;
+    const g = c.getContext('2d'); g.scale(dpr, dpr);
+    const cx = cell / 2, cy = cell / 2, col = COLORS[color];
+    g.fillStyle = 'rgba(0,0,0,0.28)'; g.beginPath(); g.ellipse(cx, cy + r * 0.18, r * 0.98, r * 0.98, 0, 0, Math.PI * 2); g.fill();
+    const grad = g.createRadialGradient(cx - r * 0.35, cy - r * 0.4, r * 0.1, cx, cy, r);
+    grad.addColorStop(0, col.light); grad.addColorStop(0.35, col.hex); grad.addColorStop(1, col.dark);
+    g.fillStyle = grad; g.beginPath(); g.arc(cx, cy, r, 0, Math.PI * 2); g.fill();
+    g.fillStyle = 'rgba(255,255,255,0.55)'; g.beginPath(); g.ellipse(cx - r * 0.3, cy - r * 0.42, r * 0.3, r * 0.18, -0.6, 0, Math.PI * 2); g.fill();
+    g.strokeStyle = 'rgba(255,255,255,0.18)'; g.lineWidth = 1.2; g.beginPath(); g.arc(cx, cy, r - 0.8, 0, Math.PI * 2); g.stroke();
+    if (settings.shapes) drawShape(g, color, cx, cy, r * 0.42);
+    this.sprites[key] = c; return c;
+  };
+  function drawShape(g, color, cx, cy, s) {
+    g.fillStyle = 'rgba(20,10,40,0.55)'; g.strokeStyle = 'rgba(255,255,255,0.9)'; g.lineWidth = 2; g.lineJoin = 'round';
+    g.beginPath();
+    if (color === 0) g.arc(cx, cy, s * 0.8, 0, Math.PI * 2);
+    else if (color === 1) { g.moveTo(cx, cy - s); g.lineTo(cx + s, cy + s * 0.8); g.lineTo(cx - s, cy + s * 0.8); g.closePath(); }
+    else if (color === 2) g.rect(cx - s * 0.8, cy - s * 0.8, s * 1.6, s * 1.6);
+    else if (color === 3) { g.moveTo(cx, cy - s); g.lineTo(cx + s, cy); g.lineTo(cx, cy + s); g.lineTo(cx - s, cy); g.closePath(); }
+    else { for (let i = 0; i < 10; i++) { const a = -Math.PI / 2 + i * Math.PI / 5, rr = i % 2 ? s * 0.45 : s; g.lineTo(cx + Math.cos(a) * rr, cy + Math.sin(a) * rr); } g.closePath(); }
+    g.fill(); g.stroke();
+  }
+  // Balls drop in from above the board (new game).
+  Board.prototype.reset = function (engine) {
+    this.vis = [];
+    for (let r = 0; r < ROWS; r++) { const row = []; for (let c = 0; c < COLS; c++) { const col = engine.grid[r][c]; row.push(col >= 0 ? { color: col, y: r - ROWS - 1 - Math.random() * 2, vy: 0, target: r, squash: 0, delay: c * 0.03 + Math.random() * 0.05 } : null); } this.vis.push(row); }
+    this.pops = []; this.parts = []; this.floats = [];
+  };
+  // Snap to the engine grid with no animation (undo).
+  Board.prototype.snap = function (engine) {
+    this.vis = [];
+    for (let r = 0; r < ROWS; r++) { const row = []; for (let c = 0; c < COLS; c++) { const col = engine.grid[r][c]; row.push(col >= 0 ? { color: col, y: r, vy: 0, target: r, squash: 0 } : null); } this.vis.push(row); }
+    this.pops = []; this.floats = [];
+  };
+  Board.prototype.apply = function (engine, res) {
+    const old = this.vis, cell = this.cell, nv = [];
+    for (let r = 0; r < ROWS; r++) nv.push(new Array(COLS).fill(null));
+    const moved = new Set();
+    res.removed.forEach(p => {
+      const v = old[p.r][p.c];
+      this.pops.push({ x: (p.c + 0.5) * cell, y: (((v && v.y != null) ? v.y : p.r) + 0.5) * cell, color: p.color, t: 0 });
+      this.spawnParticles((p.c + 0.5) * cell, (p.r + 0.5) * cell, p.color, res.n >= 8 ? 10 : 6);
+      moved.add(p.r * COLS + p.c);
+    });
+    res.fell.forEach(f => { const v = old[f.from][f.c]; nv[f.to][f.c] = { color: f.color, y: v ? v.y : f.from, vy: v ? v.vy : 0, target: f.to, squash: 0 }; moved.add(f.from * COLS + f.c); });
+    res.added.forEach(a => { nv[a.to][a.c] = { color: a.color, y: a.from - 0.3, vy: 0, target: a.to, squash: 0 }; });
+    for (let r = 0; r < ROWS; r++) for (let c = 0; c < COLS; c++) {
+      if (nv[r][c]) continue;
+      if (engine.grid[r][c] >= 0 && !moved.has(r * COLS + c)) nv[r][c] = old[r][c] || { color: engine.grid[r][c], y: r, vy: 0, target: r, squash: 0 };
+    }
+    this.vis = nv;
+    let sx = 0, sy = 0; res.removed.forEach(p => { sx += p.c; sy += p.r; });
+    this.floats.push({ x: (sx / res.n + 0.5) * cell, y: (sy / res.n + 0.5) * cell, text: '+' + fmt(res.points), sub: res.mult > 1 ? 'x' + res.mult : '', t: 0 });
+  };
+  Board.prototype.spawnParticles = function (x, y, color, n) {
+    const cell = this.cell;
+    for (let i = 0; i < n; i++) {
+      const a = Math.random() * Math.PI * 2, sp = cell * (1.5 + Math.random() * 3.5);
+      this.parts.push({ x, y, vx: Math.cos(a) * sp, vy: Math.sin(a) * sp - cell * 2, r: cell * (0.06 + Math.random() * 0.1), color: COLORS[color].hex, t: 0, life: 0.45 + Math.random() * 0.3 });
+    }
+  };
+  Board.prototype.settled = function (r, c) { const v = this.vis[r] && this.vis[r][c]; return !!v && v.y === v.target && !(v.delay > 0); };
+  Board.prototype.wiggle = function (r, c) { const v = this.vis[r] && this.vis[r][c]; if (v) v.squash = 0.5; };
+  Board.prototype.step = function (dt) {
+    let active = false; const G = 42, cell = this.cell;
+    for (let r = 0; r < ROWS; r++) for (let c = 0; c < COLS; c++) {
+      const v = this.vis[r] && this.vis[r][c]; if (!v) continue;
+      if (v.delay > 0) { v.delay -= dt; active = true; continue; }
+      if (v.y < v.target || v.vy !== 0) {
+        v.vy += G * dt; v.y += v.vy * dt;
+        if (v.y >= v.target) {
+          v.y = v.target;
+          if (v.vy > 3.5) { v.vy = -v.vy * 0.22; v.squash = 1; if (this.onLand) this.onLand(); }
+          else { v.vy = 0; v.squash = Math.max(v.squash, 0.6); }
+        }
+        active = true;
+      }
+      if (v.squash > 0) { v.squash = Math.max(0, v.squash - dt * 6); active = true; }
+    }
+    this.pops.forEach(p => { p.t += dt; }); this.pops = this.pops.filter(p => p.t < 0.22); if (this.pops.length) active = true;
+    this.parts.forEach(p => { p.t += dt; p.vy += cell * 14 * dt; p.x += p.vx * dt; p.y += p.vy * dt; }); this.parts = this.parts.filter(p => p.t < p.life); if (this.parts.length) active = true;
+    this.floats.forEach(f => { f.t += dt; }); this.floats = this.floats.filter(f => f.t < 0.9); if (this.floats.length) active = true;
+    if (this.pointer) { const p = this.pointer; p.x += (p.tx - p.x) * Math.min(1, dt * 9); p.y += (p.ty - p.y) * Math.min(1, dt * 9); p.press = Math.max(0, p.press - dt * 3); active = true; }
+    return active;
+  };
+  Board.prototype.draw = function () {
+    const ctx = this.ctx, size = this.size, cell = this.cell, dpr = this.dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, size, size);
+    roundRect(ctx, 0, 0, size, size, size * 0.065); ctx.fillStyle = 'rgba(255,255,255,0.06)'; ctx.fill();
+    ctx.fillStyle = 'rgba(0,0,0,0.18)';
+    for (let r = 0; r < ROWS; r++) for (let c = 0; c < COLS; c++) { ctx.beginPath(); ctx.arc((c + 0.5) * cell, (r + 0.5) * cell, cell * 0.36, 0, Math.PI * 2); ctx.fill(); }
+    ctx.save(); roundRect(ctx, 0, 0, size, size, size * 0.065); ctx.clip();
+    for (let r = 0; r < ROWS; r++) for (let c = 0; c < COLS; c++) {
+      const v = this.vis[r] && this.vis[r][c]; if (!v || v.delay > 0) continue;
+      const sp = this.sprite(v.color), x = c * cell, y = v.y * cell;
+      if (v.squash > 0) { ctx.save(); ctx.translate(x + cell / 2, y + cell); ctx.scale(1 + 0.12 * v.squash, 1 - 0.18 * v.squash); ctx.drawImage(sp, -cell / 2, -cell, cell, cell); ctx.restore(); }
+      else ctx.drawImage(sp, x, y, cell, cell);
+    }
+    if (this.armed) { ctx.fillStyle = 'rgba(255,210,63,0.10)'; ctx.fillRect(0, 0, size, size); }
+    this.pops.forEach(p => { const k = p.t / 0.22; ctx.globalAlpha = (1 - k) * 0.9; ctx.fillStyle = COLORS[p.color].light; ctx.beginPath(); ctx.arc(p.x, p.y, cell * 0.43 * (1 + k * 0.9), 0, Math.PI * 2); ctx.fill(); ctx.globalAlpha = 1; });
+    this.parts.forEach(p => { ctx.globalAlpha = 1 - p.t / p.life; ctx.fillStyle = p.color; ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill(); });
+    ctx.globalAlpha = 1; ctx.restore();
+    this.floats.forEach(f => {
+      const k = f.t / 0.9, y = f.y - k * cell * 1.2, a = k < 0.7 ? 1 : 1 - (k - 0.7) / 0.3;
+      ctx.globalAlpha = a; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.font = '900 ' + Math.round(cell * 0.46) + 'px ' + fontFamily();
+      ctx.lineWidth = 5; ctx.strokeStyle = 'rgba(0,0,0,0.55)'; ctx.strokeText(f.text, f.x, y); ctx.fillStyle = '#fff'; ctx.fillText(f.text, f.x, y);
+      if (f.sub) { ctx.font = '900 ' + Math.round(cell * 0.32) + 'px ' + fontFamily(); ctx.strokeText(f.sub, f.x, y + cell * 0.42); ctx.fillStyle = '#ffd23f'; ctx.fillText(f.sub, f.x, y + cell * 0.42); }
+      ctx.globalAlpha = 1;
+    });
+    if (this.pointer) { // demo "finger": a ring that shrinks when it presses
+      const p = this.pointer, rr = cell * (0.55 - 0.18 * p.press);
+      ctx.strokeStyle = 'rgba(255,255,255,0.95)'; ctx.lineWidth = 4; ctx.beginPath(); ctx.arc(p.x, p.y, rr, 0, Math.PI * 2); ctx.stroke();
+      ctx.fillStyle = 'rgba(255,255,255,' + (0.25 + p.press * 0.5) + ')'; ctx.beginPath(); ctx.arc(p.x, p.y, rr * 0.45, 0, Math.PI * 2); ctx.fill();
+      if (p.press > 0) { ctx.strokeStyle = 'rgba(255,255,255,' + p.press * 0.6 + ')'; ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(p.x, p.y, rr + (1 - p.press) * cell * 0.9, 0, Math.PI * 2); ctx.stroke(); }
+    }
+  };
+  Board.prototype.cellAt = function (px, py) { const c = Math.floor(px / this.cell), r = Math.floor(py / this.cell); return (r < 0 || r >= ROWS || c < 0 || c >= COLS) ? null : { r, c }; };
+
+  /* ================= State ================= */
+  const S = { screen: 'home', engine: null, mode: 'classic', armed: null, freeUndos: 1, bombUsed: false, lastTap: 0, lastMult: 1, rafId: 0, gamesFinished: 0, lastSummary: null, tally: null };
+  const board = new Board($('#board'));
+  board.onLand = () => Sound.land();
+
+  /* ================= Animation loop (game screen) ================= */
+  let lastFrame = 0;
+  function frame(now) {
+    const dt = Math.min(0.033, (now - (lastFrame || now)) / 1000); lastFrame = now;
+    const active = board.step(dt); board.draw();
+    if (S.tally) stepTally(now);
+    if (active || S.screen === 'game' || S.tally) S.rafId = requestAnimationFrame(frame); else S.rafId = 0;
+  }
+  function ensureLoop() { if (!S.rafId) { lastFrame = 0; S.rafId = requestAnimationFrame(frame); } }
+  function layoutBoard() { const rect = $('.board-wrap').getBoundingClientRect(); board.layout(Math.min(rect.width, rect.height)); }
+
+  /* ================= Screens and overlays ================= */
+  function showScreen(name) {
+    document.querySelectorAll('.screen').forEach(s => s.classList.toggle('active', s.id === name));
+    S.screen = name;
+    if (name === 'game') { layoutBoard(); ensureLoop(); }
+    if (name === 'home') renderHome();
+  }
+  function closeOverlays() { document.querySelectorAll('.overlay').forEach(o => { if (o.id !== 'fakead') o.classList.remove('active'); }); if (Demo.running) Demo.stop(); }
+  function openOverlay(id) { closeOverlays(); $('#' + id).classList.add('active'); }
+  function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove('show'), 1600); }
+  function shakeScreen() { restartAnim($('#app'), 'shake-screen'); }
+  function boardMessage(text) { const m = $('#boardMsg'); m.textContent = text; restartAnim(m, 'show'); }
+
+  function effectiveStreak() {
+    const st = Store.get('streak', { count: 0, last: null });
+    if (!st.last) return 0;
+    return (st.last === todayKey() || st.last === yesterdayKey()) ? st.count : 0;
+  }
+  function renderHome() {
+    $('#bestValue').textContent = fmt(Store.get('best', 0));
+    const key = todayKey(), daily = Store.get('daily', {});
+    const played = daily.date === key && daily.plays > 0;
+    $('#streakValue').textContent = effectiveStreak();
+    $('#dailySub').textContent = played ? ('Today: ' + fmt(daily.best)) : ('Same board for everyone. ' + niceDate(key));
+    $('#dailyBtn').textContent = played ? 'REPLAY' : 'PLAY';
+  }
+
+  /* ================= Game flow ================= */
+  function startGame(mode) {
+    Sound.unlock();
+    S.mode = mode;
+    const seed = mode === 'daily' ? dailySeed(todayKey()) : (Math.random() * 0xFFFFFFFF) >>> 0;
+    S.engine = new Engine({ seed, mode });
+    S.freeUndos = 1; S.bombUsed = false; S.armed = null; S.lastMult = 1; S.tally = null;
+    closeOverlays();
+    showScreen('game');
+    board.reset(S.engine); board.armed = false;
+    updateHud(null);
+    $('#modeTag').textContent = mode === 'daily' ? 'DAILY' : 'CLASSIC';
+    Sound.start();
+    Ads.preloadInterstitial(); Ads.preloadRewarded();
+  }
+
+  function updateHud(res) {
+    const e = S.engine;
+    const sv = $('#scoreValue'); sv.textContent = fmt(e.score);
+    if (res) restartAnim(sv, 'pop');
+    $('#movesValue').textContent = e.moves;
+    $('#movesPill').classList.toggle('low', e.moves <= 5 && e.moves > 0);
+    const combo = $('#comboPill');
+    $('#comboValue').textContent = 'x' + e.mult;
+    combo.classList.toggle('hot', e.mult > 1);
+    combo.classList.toggle('max', e.mult >= e.rules.maxMult);
+    if (res && res.chainEvent === 'grow') restartAnim(combo, 'bump');
+    if (res && res.chainEvent === 'break' && S.lastMult > 1) restartAnim(combo, 'shake');
+    S.lastMult = e.mult;
+    $('#undoBtn').disabled = !e.canUndo();
+    $('#undoTag').textContent = S.freeUndos > 0 ? 'FREE' : 'WATCH AD';
+    const bombBtn = $('#bombBtn');
+    bombBtn.disabled = e.over || S.bombUsed;
+    $('#bombTag').textContent = S.bombUsed ? 'USED' : S.armed === 'bomb' ? 'TAP A COLOR' : 'WATCH AD';
+    bombBtn.classList.toggle('armed', S.armed === 'bomb');
+    board.armed = S.armed === 'bomb';
+  }
+
+  function onBoardTap(px, py) {
+    if (S.screen !== 'game' || !S.engine || S.engine.over) return;
+    const cellPos = board.cellAt(px, py); if (!cellPos) return;
+    const { r, c } = cellPos;
+    const now = performance.now();
+    if (now - S.lastTap < 110) return;
+    if (!board.settled(r, c)) return; // still falling
+    Sound.unlock();
+    let res;
+    if (S.armed === 'bomb') { res = S.engine.bomb(r, c); S.armed = null; S.bombUsed = true; }
+    else res = S.engine.tap(r, c);
+    if (!res) { board.wiggle(r, c); ensureLoop(); Sound.click(); return; }
+    S.lastTap = now;
+    const prevMult = S.lastMult;
+    board.apply(S.engine, res); ensureLoop();
+    Sound.pop(res.n, res.mult);
+    if (settings.haptics) Haptics.pop(res.n);
+    if (res.mega) { Sound.mega(); boardMessage(res.n >= 12 ? 'INSANE!' : 'MEGA!'); shakeScreen(); }
+    else if (res.chainEvent === 'grow' && res.mult >= 3) {
+      Sound.comboGrow(res.mult, S.engine.rules.maxMult);
+      if (res.mult === 3 || res.mult === 5 || res.mult >= S.engine.rules.maxMult) boardMessage(res.mult >= S.engine.rules.maxMult ? 'MAX COMBO!' : 'COMBO x' + res.mult);
+    }
+    else if (res.chainEvent === 'break' && prevMult >= 3) Sound.comboBreak();
+    if (!res.over) Sound.lowMoves(S.engine.moves);
+    updateHud(res);
+    if (res.over) setTimeout(() => onRoundEnd(res), 520);
+  }
+
+  function onRoundEnd(res) {
+    const e = S.engine;
+    if (res.outOfMoves && !res.stuck && !e.continued) {
+      $('#outScore').textContent = fmt(e.score);
+      openOverlay('outOfMoves');
+      Sound.outOfMoves();
+      if (settings.haptics) Haptics.warn();
+      return;
+    }
+    finishGame();
+  }
+
+  async function continueGame() {
+    Sound.click();
+    const earned = await Ads.showRewarded('continue');
+    if (!earned) { toast('No ad available right now'); return; }
+    S.engine.grantMoves(S.engine.rules.continueMoves);
+    closeOverlays();
+    Sound.continueGranted();
+    toast('+' + S.engine.rules.continueMoves + ' moves!');
+    if (settings.haptics) Haptics.success();
+    updateHud(null);
+    if (S.engine.over) setTimeout(finishGame, 300);
+  }
+
+  function finishGame() {
+    const e = S.engine; e.over = true;
+    const sum = e.summary();
+    const prevBest = Store.get('best', 0);
+    const isBest = sum.score > prevBest;
+    if (isBest) Store.set('best', sum.score);
+    S.gamesFinished = Store.get('games', 0) + 1; Store.set('games', S.gamesFinished);
+    let dailyLine = '';
+    if (S.mode === 'daily') {
+      const key = todayKey(), d = Store.get('daily', {});
+      const cur = d.date === key ? d : { date: key, best: 0, plays: 0 };
+      cur.plays++; cur.best = Math.max(cur.best, sum.score); Store.set('daily', cur);
+      const st = Store.get('streak', { count: 0, last: null });
+      if (st.last !== key) { st.count = (st.last === yesterdayKey()) ? st.count + 1 : 1; st.last = key; Store.set('streak', st); }
+      dailyLine = 'DAY STREAK: ' + st.count;
+    }
+    $('#overTitle').textContent = S.mode === 'daily' ? 'DAILY DONE' : 'GAME OVER';
+    $('#overKicker').textContent = S.mode === 'daily' ? ('DAILY CHALLENGE ' + niceDate(todayKey()).toUpperCase() + (dailyLine ? ' • ' + dailyLine : '')) : 'NICE RUN';
+    $('#comboBalls').textContent = sum.bestChainBalls + ' BALLS';
+    $('#comboMult').textContent = 'best combo x' + sum.bestMult + ' • biggest pop ' + sum.bestPop;
+    $('#finalScore').textContent = '0';
+    $('#newBest').style.display = 'none';
+    $('#beatLine').textContent = isBest ? '' : ('BEST: ' + fmt(prevBest));
+    openOverlay('gameOver');
+    S.lastSummary = Object.assign({ isBest: isBest, dailyLine: dailyLine }, sum);
+    // slot machine style tally: the score counts up with coin ticks, then a bell (jackpot for a new best)
+    S.tally = { start: performance.now(), dur: Math.min(2200, 700 + Math.sqrt(sum.score) * 9), target: sum.score, isBest: isBest, done: false };
+    ensureLoop();
+  }
+  function stepTally(now) {
+    const t = S.tally; if (!t || t.done) return;
+    const k = Math.min(1, (now - t.start) / t.dur);
+    const eased = 1 - Math.pow(1 - k, 2.2);
+    $('#finalScore').textContent = fmt(t.target * eased);
+    if (k < 1) Sound.tallyTick(k);
+    else {
+      t.done = true; S.tally = null;
+      $('#finalScore').textContent = fmt(t.target);
+      restartAnim($('#finalScore'), 'pop');
+      if (t.isBest) { $('#newBest').style.display = 'inline-block'; $('#beatLine').textContent = 'NEW PERSONAL BEST'; if (settings.haptics) Haptics.success(); }
+      Sound.tallyDone(t.isBest);
+    }
+  }
+
+  async function afterGameTransition(next) {
+    Sound.click(); closeOverlays(); S.tally = null;
+    const every = CFG.ads.interstitialEvery || 3;
+    if (S.gamesFinished > 0 && S.gamesFinished % every === 0) await Ads.showInterstitial();
+    next();
+  }
+
+  async function undo() {
+    const e = S.engine; if (!e || !e.canUndo()) return;
+    Sound.click();
+    if (S.freeUndos <= 0) { const ok = await Ads.showRewarded('undo'); if (!ok) { toast('No ad available right now'); return; } }
+    else S.freeUndos--;
+    e.undo(); S.armed = null; board.snap(e); ensureLoop(); updateHud(null); toast('Undone');
+  }
+
+  async function armBomb() {
+    if (!S.engine || S.engine.over || S.bombUsed) return;
+    Sound.click();
+    if (S.armed === 'bomb') { S.armed = null; updateHud(null); return; }
+    const ok = await Ads.showRewarded('bomb');
+    if (!ok) { toast('No ad available right now'); return; }
+    S.armed = 'bomb'; updateHud(null); Sound.bombArmed(); toast('Tap any ball to blast that color');
+  }
+
+  /* ================= Demo (plays itself with captions) ================= */
+  const Demo = {
+    running: false, board: null, engine: null, rafId: 0, last: 0, timers: [],
+    start() {
+      Sound.unlock();
+      this.stop();
+      openOverlay('demo');
+      this.running = true;
+      const canvas = $('#demoBoard');
+      this.board = this.board || new Board(canvas);
+      this.board.onLand = () => Sound.land();
+      const wrap = $('#demoWrap').getBoundingClientRect();
+      this.board.layout(Math.min(wrap.width, 320));
+      this.engine = new Engine({ seed: DEMO_SEED });
+      this.board.reset(this.engine);
+      this.board.pointer = { x: this.board.size / 2, y: this.board.size * 1.2, tx: this.board.size / 2, ty: this.board.size * 1.2, press: 0 };
+      $('#demoCombo').textContent = 'x1'; $('#demoCombo').classList.remove('hot');
+      $('#demoScore').textContent = '0';
+      $('#demoNext').textContent = 'SKIP';
+      this.caption('WELCOME TO HUE POP', 'Watch how it works');
+      this.last = 0; this.loop(performance.now());
+      this.schedule();
+    },
+    caption(big, small) { const c = $('#demoCaption'); c.textContent = big; restartAnim(c, 'in'); $('#demoSub').textContent = small; },
+    after(ms, fn) { this.timers.push(setTimeout(() => { if (this.running) fn(); }, ms)); },
+    pickGroup(min, exact) {
+      const gs = this.engine.allGroups().filter(g => exact ? g.length === min : g.length >= min && g.length <= 7);
+      if (!gs.length) return null;
+      return gs.reduce((a, b) => (b.length > a.length ? b : a));
+    },
+    // Move the finger to a group, press, pop it.
+    tapGroup(g) {
+      if (!g) return;
+      const cell = this.board.cell; const p = g[Math.floor(g.length / 2)];
+      this.board.pointer.tx = (p.c + 0.5) * cell; this.board.pointer.ty = (p.r + 0.5) * cell;
+      this.after(650, () => {
+        this.board.pointer.press = 1; Sound.demoTap();
+        const res = this.engine.tap(p.r, p.c); if (!res) return;
+        this.board.apply(this.engine, res);
+        Sound.pop(res.n, res.mult);
+        if (res.chainEvent === 'grow' && res.mult >= 3) Sound.comboGrow(res.mult, this.engine.rules.maxMult);
+        if (res.chainEvent === 'break' && res.mult === 1) Sound.comboBreak();
+        $('#demoScore').textContent = fmt(this.engine.score);
+        const cp = $('#demoCombo'); cp.textContent = 'x' + res.mult; cp.classList.toggle('hot', res.mult > 1); restartAnim(cp, res.chainEvent === 'break' ? 'shake' : 'bump');
+      });
+    },
+    schedule() {
+      const T = (ms, fn) => this.after(ms, fn);
+      T(1200, () => { this.caption('TAP 2+ MATCHING BALLS', 'Connected balls of the same color pop together'); this.tapGroup(this.pickGroup(5)); });
+      T(3300, () => { this.caption('EVERYTHING FALLS', 'New balls drop in from the top'); });
+      T(5200, () => { this.caption('POP 4+ TO GROW YOUR COMBO', 'Each big pop multiplies your score'); this.tapGroup(this.pickGroup(4)); });
+      T(7600, () => { this.tapGroup(this.pickGroup(4)); });
+      T(9800, () => { this.caption('POP JUST 2 AND THE COMBO BREAKS', 'Save the pairs for last'); this.tapGroup(this.pickGroup(2, true)); });
+      T(12400, () => { this.caption('20 MOVES. BEAT YOUR BEST.', 'Share your score card and challenge a friend'); $('#demoNext').textContent = 'PLAY'; this.board.pointer.tx = this.board.size / 2; this.board.pointer.ty = this.board.size * 1.2; Sound.bell(1568, 0, 0.6, 0.14); });
+      T(15500, () => { if (this.running) this.start(); }); // loop until the player taps PLAY
+    },
+    loop(now) {
+      if (!this.running) return;
+      const dt = Math.min(0.033, (now - (this.last || now)) / 1000); this.last = now;
+      this.board.step(dt); this.board.draw();
+      this.rafId = requestAnimationFrame((t) => this.loop(t));
+    },
+    stop() {
+      this.running = false;
+      this.timers.forEach(clearTimeout); this.timers = [];
+      if (this.rafId) cancelAnimationFrame(this.rafId); this.rafId = 0;
+      $('#demo').classList.remove('active');
+    },
+  };
+
+  /* ================= Share card ================= */
+  function makeShareCard(sum) {
+    const W = 1080, H = 1350;
+    const c = document.createElement('canvas'); c.width = W; c.height = H; const g = c.getContext('2d');
+    const bg = g.createLinearGradient(0, 0, 0, H); bg.addColorStop(0, '#3a2a8c'); bg.addColorStop(0.5, '#1b1246'); bg.addColorStop(1, '#0b0821');
+    g.fillStyle = bg; g.fillRect(0, 0, W, H);
+    const rnd = window.HuePopEngine.mulberry32(sum.seed || 7);
+    for (let i = 0; i < 26; i++) {
+      const x = rnd() * W, y = rnd() * H, r = 18 + rnd() * 40, col = COLORS[Math.floor(rnd() * NCOLORS)];
+      const gr = g.createRadialGradient(x - r * 0.3, y - r * 0.3, r * 0.1, x, y, r); gr.addColorStop(0, col.light); gr.addColorStop(0.4, col.hex); gr.addColorStop(1, col.dark);
+      g.globalAlpha = 0.28; g.fillStyle = gr; g.beginPath(); g.arc(x, y, r, 0, Math.PI * 2); g.fill();
+    }
+    g.globalAlpha = 1;
+    const font = (w, px) => w + ' ' + px + 'px ' + fontFamily();
+    g.textAlign = 'center'; g.textBaseline = 'middle';
+    g.fillStyle = '#fff'; g.font = font('900', 72); g.fillText('HUE POP', W / 2, 150);
+    for (let i = 0; i < 5; i++) { const x = W / 2 - 96 + i * 48, y = 222, r = 16, col = COLORS[i]; const gr = g.createRadialGradient(x - 5, y - 6, 3, x, y, r); gr.addColorStop(0, col.light); gr.addColorStop(0.45, col.hex); gr.addColorStop(1, col.dark); g.fillStyle = gr; g.beginPath(); g.arc(x, y, r, 0, Math.PI * 2); g.fill(); }
+    g.fillStyle = 'rgba(255,255,255,0.08)'; roundRect(g, 90, 300, W - 180, 760, 48); g.fill();
+    g.strokeStyle = 'rgba(255,255,255,0.12)'; g.lineWidth = 3; g.stroke();
+    drawFlame(g, W / 2, 400, 46);
+    g.fillStyle = 'rgba(255,255,255,0.7)'; g.font = font('800', 30); g.fillText(S.mode === 'daily' ? 'DAILY CHALLENGE  •  BEST COMBO' : 'YOUR BEST COMBO', W / 2, 480);
+    const tg = g.createLinearGradient(W / 2 - 300, 0, W / 2 + 300, 0); tg.addColorStop(0, '#ffd23f'); tg.addColorStop(0.5, '#ff7a59'); tg.addColorStop(1, '#ff4d6d');
+    g.fillStyle = tg; g.font = font('900', 128); g.fillText(sum.bestChainBalls + ' BALLS', W / 2, 580);
+    g.fillStyle = 'rgba(255,255,255,0.7)'; g.font = font('800', 30); g.fillText('SCORE', W / 2, 700);
+    g.fillStyle = '#fff'; g.font = font('900', 150); g.fillText(fmt(sum.score), W / 2, 800);
+    if (sum.isBest) { g.fillStyle = '#ffd23f'; g.font = font('900', 34); g.fillText('NEW PERSONAL BEST', W / 2, 900); }
+    else if (sum.dailyLine) { g.fillStyle = '#ffd23f'; g.font = font('900', 34); g.fillText(sum.dailyLine, W / 2, 900); }
+    g.fillStyle = '#fff'; g.font = font('900', 64); g.fillText('CAN YOU BEAT ME?', W / 2, 1010);
+    g.fillStyle = 'rgba(255,255,255,0.55)'; g.font = font('700', 30); g.fillText('Free to play  •  ' + CFG.websiteUrl.replace(/^https?:\/\//, ''), W / 2, 1200);
+    return c.toDataURL('image/png');
+  }
+  function drawFlame(g, x, y, s) {
+    const grad = g.createLinearGradient(x, y - s, x, y + s); grad.addColorStop(0, '#ffd23f'); grad.addColorStop(0.6, '#ff7a59'); grad.addColorStop(1, '#ff4d6d');
+    g.fillStyle = grad; g.beginPath();
+    g.moveTo(x, y - s); g.bezierCurveTo(x + s * 0.9, y - s * 0.2, x + s * 0.8, y + s * 0.8, x, y + s);
+    g.bezierCurveTo(x - s * 0.8, y + s * 0.8, x - s * 0.9, y - s * 0.2, x - s * 0.2, y - s * 0.5);
+    g.bezierCurveTo(x - s * 0.1, y - s * 0.2, x + s * 0.1, y - s * 0.3, x, y - s); g.fill();
+    g.fillStyle = '#fff4b8'; g.beginPath(); g.ellipse(x, y + s * 0.45, s * 0.28, s * 0.4, 0, 0, Math.PI * 2); g.fill();
+  }
+  async function shareScore() {
+    Sound.click();
+    const sum = S.lastSummary; if (!sum) return;
+    const text = S.mode === 'daily'
+      ? 'I scored ' + fmt(sum.score) + ' on today\'s Hue Pop daily challenge (best combo ' + sum.bestChainBalls + ' balls). Can you beat me?'
+      : 'I scored ' + fmt(sum.score) + ' in Hue Pop with a ' + sum.bestChainBalls + ' ball combo. Can you beat me?';
+    const dataUrl = makeShareCard(sum);
+    const r = await ShareKit.share(dataUrl, text, 'Hue Pop');
+    if (r === 'unsupported') {
+      $('#cardImg').src = dataUrl;
+      $('#cardCopy').onclick = async () => { Sound.click(); try { await navigator.clipboard.writeText(ShareKit.fullText(text)); toast('Caption copied'); } catch (e) { toast('Copy not available here'); } };
+      $('#cardView').classList.add('active');
+    }
+  }
+
+  /* ================= Settings ================= */
+  function loadSettings() { Object.assign(settings, Store.get('settings', {})); Sound.enabled = settings.sound; renderSettings(); }
+  function renderSettings() {
+    $('#setSound').querySelector('span:last-child').textContent = settings.sound ? 'ON' : 'OFF';
+    $('#setHaptics').querySelector('span:last-child').textContent = settings.haptics ? 'ON' : 'OFF';
+    $('#setShapes').querySelector('span:last-child').textContent = settings.shapes ? 'ON' : 'OFF';
+    $('#soundBtn').classList.toggle('muted', !settings.sound);
+  }
+  function toggleSetting(k) {
+    settings[k] = !settings[k]; Store.set('settings', settings); Sound.enabled = settings.sound;
+    board.sprites = {}; if (Demo.board) Demo.board.sprites = {};
+    renderSettings(); board.draw(); Sound.click();
+  }
+
+  /* ================= Wiring ================= */
+  function bind() {
+    $('#playBtn').addEventListener('click', () => { Sound.click(); startGame('classic'); });
+    $('#dailyBtn').addEventListener('click', () => { Sound.click(); startGame('daily'); });
+    $('#helpBtn').addEventListener('click', () => { Sound.click(); Demo.start(); });
+    $('#settingsBtn').addEventListener('click', () => { Sound.unlock(); Sound.click(); openOverlay('settings'); });
+    $('#soundBtn').addEventListener('click', () => { Sound.unlock(); toggleSetting('sound'); });
+    $('#settingsClose').addEventListener('click', () => { Sound.click(); closeOverlays(); });
+    $('#setSound').addEventListener('click', () => toggleSetting('sound'));
+    $('#setHaptics').addEventListener('click', () => toggleSetting('haptics'));
+    $('#setShapes').addEventListener('click', () => toggleSetting('shapes'));
+    $('#setHelp').addEventListener('click', () => { Sound.click(); Demo.start(); });
+    $('#privacyLink').href = CFG.privacyUrl;
+    $('#demoNext').addEventListener('click', () => { Sound.click(); Store.set('seenHelp', true); const inGame = S.screen === 'game' && S.engine && !S.engine.over; Demo.stop(); if (!inGame) startGame('classic'); });
+    $('#demoReplay').addEventListener('click', () => { Sound.click(); Demo.start(); });
+    $('#undoBtn').addEventListener('click', undo);
+    $('#bombBtn').addEventListener('click', armBomb);
+    $('#homeBtn').addEventListener('click', () => { Sound.click(); if (S.engine && !S.engine.over && S.engine.pops > 0) openOverlay('quit'); else showScreen('home'); });
+    $('#quitYes').addEventListener('click', () => { Sound.click(); closeOverlays(); showScreen('home'); });
+    $('#quitNo').addEventListener('click', () => { Sound.click(); closeOverlays(); });
+    $('#continueBtn').addEventListener('click', continueGame);
+    $('#finishBtn').addEventListener('click', () => { Sound.click(); closeOverlays(); finishGame(); });
+    $('#shareBtn').addEventListener('click', shareScore);
+    $('#cardClose').addEventListener('click', () => { Sound.click(); $('#cardView').classList.remove('active'); });
+    $('#againBtn').addEventListener('click', () => afterGameTransition(() => startGame(S.mode)));
+    $('#overHomeBtn').addEventListener('click', () => afterGameTransition(() => showScreen('home')));
+
+    board.canvas.addEventListener('pointerdown', (ev) => {
+      ev.preventDefault();
+      const rect = board.canvas.getBoundingClientRect();
+      onBoardTap((ev.clientX - rect.left) * (board.size / rect.width), (ev.clientY - rect.top) * (board.size / rect.height));
+    });
+    window.addEventListener('resize', () => { if (S.screen === 'game') layoutBoard(); });
+    if (window.visualViewport) window.visualViewport.addEventListener('resize', () => { if (S.screen === 'game') layoutBoard(); });
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && S.screen === 'game') ensureLoop(); });
+
+    const Cap = window.Capacitor;
+    if (isNative && Cap.Plugins && Cap.Plugins.App) {
+      Cap.Plugins.App.addListener('backButton', () => {
+        const anyOverlay = document.querySelector('.overlay.active:not(#fakead)');
+        if (anyOverlay && anyOverlay.id !== 'gameOver' && anyOverlay.id !== 'outOfMoves') { closeOverlays(); return; }
+        if (S.screen === 'game') { if (!anyOverlay) openOverlay('quit'); return; }
+        Cap.Plugins.App.exitApp();
+      });
+    }
+  }
+
+  async function boot() {
+    await Store.load();
+    loadSettings();
+    bind();
+    Ads.onBannerHeight = (h) => { document.documentElement.style.setProperty('--banner-h', h + 'px'); if (S.screen === 'game') layoutBoard(); };
+    showScreen('home');
+    const params = new URLSearchParams(location.search);
+    if (params.get('demo') === '1' || !Store.get('seenHelp', false)) Demo.start();
+    try { if (isNative && window.Capacitor.Plugins.SplashScreen) window.Capacitor.Plugins.SplashScreen.hide(); } catch (e) {}
+    try { if (isNative && window.Capacitor.Plugins.StatusBar) window.Capacitor.Plugins.StatusBar.setStyle({ style: 'DARK' }); } catch (e) {}
+    await Ads.init();
+    Ads.showBanner();
+    window.HuePop = { state: S, startGame, Store, Ads, Sound, Demo, engine: () => S.engine, tap: onBoardTap, version: '1.0.0' };
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot); else boot();
+})();
+
+</script>
+</body>
+</html>

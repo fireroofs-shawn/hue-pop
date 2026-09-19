@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hue Pop</title>
+<meta name="description" content="Hue Pop: tap matching colors, pop them, chain combos and beat your best. A free 60 second puzzle game for iPhone and Android.">
+<style>
+  :root { --bg: #0b0821; --panel: rgba(255,255,255,0.07); --muted: rgba(255,255,255,0.65); }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: radial-gradient(120% 80% at 50% -10%, #3a2a8c 0%, #1b1246 45%, var(--bg) 100%) fixed; color: #fff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 80px; text-align: center; }
+  .icon { width: 140px; height: 140px; border-radius: 32px; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+  h1 { font-size: clamp(40px, 9vw, 64px); font-weight: 900; letter-spacing: -0.02em; margin: 22px 0 8px; }
+  .tag { color: var(--muted); font-size: 18px; margin: 0 0 28px; }
+  .dots { display: flex; justify-content: center; gap: 10px; margin-bottom: 30px; }
+  .dots i { width: 20px; height: 20px; border-radius: 50%; display: inline-block; box-shadow: inset -4px -5px 8px rgba(0,0,0,0.25), inset 4px 5px 8px rgba(255,255,255,0.45), 0 6px 12px rgba(0,0,0,0.3); }
+  .stores { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .btn { display: inline-block; padding: 16px 26px; border-radius: 999px; font-weight: 900; text-decoration: none; color: #fff; background: var(--panel); border: 1px solid rgba(255,255,255,0.12); }
+  .btn.primary { background: linear-gradient(135deg, #ff7a59, #ff4d6d); border: 0; box-shadow: 0 10px 30px rgba(255,77,109,0.4); }
+  .how { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-top: 44px; text-align: left; }
+  .how div { background: var(--panel); border-radius: 20px; padding: 18px; }
+  .how b { display: block; font-size: 26px; margin-bottom: 6px; }
+  .how p { margin: 0; color: var(--muted); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 14px; }
+  footer a { color: #ffd23f; }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="Hue Pop icon">
+  <h1>HUE POP</h1>
+  <p class="tag">Tap matching colors. Pop them. Chain combos. Beat your best.</p>
+  <div class="dots"><i style="background:#ff4d6d"></i><i style="background:#ffd23f"></i><i style="background:#3ddc84"></i><i style="background:#3b9dff"></i><i style="background:#b85cff"></i></div>
+  <div class="stores">
+    <a class="btn primary" href="play.html">Play in your browser</a>
+    <a class="btn" id="ios" href="#">App Store (coming soon)</a>
+    <a class="btn" id="android" href="#">Google Play (coming soon)</a>
+  </div>
+  <div class="how">
+    <div><b>👆</b><p>Tap 2 or more connected balls of the same color to pop them.</p></div>
+    <div><b>⬇️</b><p>Everything above falls down and new balls drop in.</p></div>
+    <div><b>🔥</b><p>Pop 4+ at once to grow your combo. Popping just 2 breaks it.</p></div>
+    <div><b>🏆</b><p>20 moves. Same daily board for everyone. Share your score card.</p></div>
+  </div>
+  <footer>
+    <a href="privacy.html">Privacy policy</a> · Contact: <a href="mailto:shawn@fireroofs.com">shawn@fireroofs.com</a>
+  </footer>
+</main>
+</body>
+</html>
